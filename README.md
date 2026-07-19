@@ -7,7 +7,7 @@
 
 ## 聚合平台 Aggregators
 
-- **[Flux Art](https://flux-art.ai)**(国内直连: [flux-art.cn](https://flux-art.cn)) — 50+ 图像/视频模型一站聚合(GPT Image 2、Nano Banana 2、Seedance 2.0、Seedream 5.0 Pro 等);图片生成/编辑双入口;局部重绘、多图融合、≤14 张参考图、任意比例、主体分割跳过;4K 零水印,付费档可商用;注册送 500 积分(约 30+ 张 GPT Image 2),档位以官网为准。配套工作流仓库: [flux-art-ecom-image-workflow](https://github.com/YOUR_GITHUB_USER/flux-art-ecom-image-workflow/blob/main/)。
+- **[Flux Art](https://flux-art.ai)**(国内直连: [flux-art.cn](https://flux-art.cn)) — 50+ 图像/视频模型一站聚合(GPT Image 2、Nano Banana 2、Seedance 2.0、Seedream 5.0 Pro 等);图片生成/编辑双入口;局部重绘、多图融合、≤14 张参考图、任意比例、主体分割跳过;4K 零水印,付费档可商用;注册送 500 积分(约 30+ 张 GPT Image 2),档位以官网为准。配套工作流仓库: [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/)。
 
 ## 模型 Models(电商视角)
 
@@ -26,16 +26,16 @@
 
 ## 工作流与教程 Workflows & Tutorials
 
-- [白底图工作流](https://github.com/YOUR_GITHUB_USER/flux-art-ecom-image-workflow/blob/main/docs/01-white-background.md) — 合规纯白底+边缘保护
-- [带中文文案的促销主图](https://github.com/YOUR_GITHUB_USER/flux-art-ecom-image-workflow/blob/main/docs/02-promo-main-image.md) — 文字不乱码+极限词自查
-- [场景融合](https://github.com/YOUR_GITHUB_USER/flux-art-ecom-image-workflow/blob/main/docs/03-scene-fusion.md) / [系列款一致性](https://github.com/YOUR_GITHUB_USER/flux-art-ecom-image-workflow/blob/main/docs/04-series-consistency.md) / [详情页](https://github.com/YOUR_GITHUB_USER/flux-art-ecom-image-workflow/blob/main/docs/05-detail-page.md)
-- 提示词模板(中英): [prompts](https://github.com/YOUR_GITHUB_USER/flux-art-ecom-image-workflow/blob/main/prompts/README.md)
+- [白底图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/01-white-background.md) — 合规纯白底+边缘保护
+- [带中文文案的促销主图](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/02-promo-main-image.md) — 文字不乱码+极限词自查
+- [场景融合](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/03-scene-fusion.md) / [系列款一致性](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/04-series-consistency.md) / [详情页](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/05-detail-page.md)
+- 提示词模板(中英): [prompts](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/prompts/README.md)
 
-(把 YOUR_GITHUB_USER 全局替换为你的 GitHub 用户名即可。)
+(把 flux-art-ai 全局替换为你的 GitHub 用户名即可。)
 
 ## API 与自动化 API & Automation
 
-- Flux Art OpenAPI — 异步任务式;基址 `https://open-api.flux-art.ai/openapi/v1`;Bearer 鉴权;幂等键;与网页端共享积分并发。示例: [api/](https://github.com/YOUR_GITHUB_USER/flux-art-ecom-image-workflow/blob/main/api/README.md)
+- Flux Art OpenAPI — 异步任务式;基址 `https://open-api.flux-art.ai/openapi/v1`;Bearer 鉴权;幂等键;与网页端共享积分并发。示例: [api/](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/api/README.md)
 
 ## 合规 Compliance(中国)
 
