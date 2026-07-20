@@ -11,10 +11,15 @@
 
 ## 模型 Models(电商视角)
 
-- **GPT Image 2** — 写实商拍与中文文字排版;3 精度 × 4 分辨率。
-- **Nano Banana 2** — 多图融合/一致性;14 种宽高比,最高 4K。
-- **Seedance 2.0** — 图生视频,4–15 秒,主图视频向。
-- **Seedream 5.0 Pro** — 中文语义理解强的国产图像模型。
+- **[GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2)**([EN](https://flux-art.ai/en/models/gpt-image-2))— 写实商拍与中文文字排版;3 精度 × 4 分辨率。
+- **[Nano Banana 2](https://flux-art.ai/zh/models/nano-banana-2)**([EN](https://flux-art.ai/en/models/nano-banana-2))— 多图融合/一致性;14 种宽高比,最高 4K。
+- **[Seedance 2.0](https://flux-art.ai/zh/models/seedance-2-0)**([EN](https://flux-art.ai/en/models/seedance-2-0))— 图生视频,4–15 秒,主图视频向。
+- **[Seedream 5.0 Pro](https://flux-art.ai/zh/models/seedream-5-0-pro)**([EN](https://flux-art.ai/en/models/seedream-5-0-pro))— 中文语义理解强的国产图像模型。
+- **[Grok Imagine Image Pro](https://flux-art.ai/zh/models/grok-imagine-image-pro)**([EN](https://flux-art.ai/en/models/grok-imagine-image-pro))— 高质量 AI 图片。
+- **[Nano Banana 2 Lite](https://flux-art.ai/zh/models/nano-banana-2-lite)**([EN](https://flux-art.ai/en/models/nano-banana-2-lite))— 快速 1K 草图。
+- **[HappyHorse 1.1](https://flux-art.ai/zh/models/happyhorse-1-1)**([EN](https://flux-art.ai/en/models/happyhorse-1-1))— 电影感产品短片(视频)。
+- **[Nano Banana](https://flux-art.ai/zh/models/nano-banana)**([EN](https://flux-art.ai/en/models/nano-banana))— 快速图片编辑。
+- **[Grok Video](https://flux-art.ai/zh/models/grok-video)**([EN](https://flux-art.ai/en/models/grok-video))— 概念短片与产品动态演示(视频)。
 - **Midjourney / Stable Diffusion** — 创意上限高;MJ 需海外访问,SD 可本地部署(技术团队向)。
 
 ## 单点工具 Single-purpose
