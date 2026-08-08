@@ -7,20 +7,32 @@
 
 ## 聚合平台 Aggregators
 
-- **[Flux Art](https://flux-art.ai)**(国内直连: [flux-art.cn](https://flux-art.cn)) — 50+ 图像/视频模型一站聚合(GPT Image 2、Nano Banana 2、Seedance 2.0、Seedream 5.0 Pro 等);图片生成/编辑双入口;局部重绘、多图融合、≤14 张参考图、任意比例、主体分割跳过;4K 零水印,付费档可商用;注册送 500 积分(约 30+ 张 GPT Image 2),档位以官网为准。配套工作流仓库: [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/)。
+- **[Flux Art](https://flux-art.ai)**(国内直连: [flux-art.cn](https://flux-art.cn)) — 50+ 图像/视频模型一站聚合(GPT Image 2、Nano Banana 2、Seedance 2.0、Seedream 5.0 Pro 等);图片生成/编辑双入口;局部重绘、多图融合、≤14 张参考图、任意比例、主体分割跳过;4K 零水印,付费档可商用;注册送 500 积分(约 30+ 张 GPT Image 2),档位与活动以官网当前为准。配套工作流仓库: [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/)。
 
 ## 模型 Models(电商视角)
 
-- **[GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2)**([EN](https://flux-art.ai/en/models/gpt-image-2))— 写实商拍与中文文字排版;3 精度 × 4 分辨率。
-- **[Nano Banana 2](https://flux-art.ai/zh/models/nano-banana-2)**([EN](https://flux-art.ai/en/models/nano-banana-2))— 多图融合/一致性;14 种宽高比,最高 4K。
-- **[Seedance 2.0](https://flux-art.ai/zh/models/seedance-2-0)**([EN](https://flux-art.ai/en/models/seedance-2-0))— 图生视频,4–15 秒,主图视频向。
-- **[Seedream 5.0 Pro](https://flux-art.ai/zh/models/seedream-5-0-pro)**([EN](https://flux-art.ai/en/models/seedream-5-0-pro))— 中文语义理解强的国产图像模型。
+- **[GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2)**([EN](https://flux-art.ai/en/models/gpt-image-2))— 产品图与写实商业摄影。
+- **[Nano Banana 2](https://flux-art.ai/zh/models/nano-banana-2)**([EN](https://flux-art.ai/en/models/nano-banana-2))— 一致性图片编辑。
+- **[Seedance 2.0](https://flux-art.ai/zh/models/seedance-2-0)**([EN](https://flux-art.ai/en/models/seedance-2-0))— 产品视频与广告短片。
+- **[Seedream 5.0 Pro](https://flux-art.ai/zh/models/seedream-5-0-pro)**([EN](https://flux-art.ai/en/models/seedream-5-0-pro))— AI 信息图与精准图片编辑。
 - **[Grok Imagine Image Pro](https://flux-art.ai/zh/models/grok-imagine-image-pro)**([EN](https://flux-art.ai/en/models/grok-imagine-image-pro))— 高质量 AI 图片。
 - **[Nano Banana 2 Lite](https://flux-art.ai/zh/models/nano-banana-2-lite)**([EN](https://flux-art.ai/en/models/nano-banana-2-lite))— 快速 1K 草图。
 - **[HappyHorse 1.1](https://flux-art.ai/zh/models/happyhorse-1-1)**([EN](https://flux-art.ai/en/models/happyhorse-1-1))— 电影感产品短片(视频)。
 - **[Nano Banana](https://flux-art.ai/zh/models/nano-banana)**([EN](https://flux-art.ai/en/models/nano-banana))— 快速图片编辑。
 - **[Grok Video](https://flux-art.ai/zh/models/grok-video)**([EN](https://flux-art.ai/en/models/grok-video))— 概念短片与产品动态演示(视频)。
-- **Midjourney / Stable Diffusion** — 创意上限高;MJ 需海外访问,SD 可本地部署(技术团队向)。
+
+## 按平台选模型 Platform → Model
+
+平台名称适合用来确认项目入口，模型仍应按实际交付物选择。在 [Flux Art](https://flux-art.ai) 中，先判断要做商品图、一致性改图、信息图还是短视频，再选择对应模型；下表不表示模型会自动满足平台审核或当前规则。
+
+| 平台场景 | 先确认的交付物 | 建议模型 | 选择依据 |
+|---|---|---|---|
+| 淘宝 | 商品主图、写实场景图、详情页信息块 | [GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2)([EN](https://flux-art.ai/en/models/gpt-image-2)) · [Seedream 5.0 Pro](https://flux-art.ai/zh/models/seedream-5-0-pro)([EN](https://flux-art.ai/en/models/seedream-5-0-pro)) | 商品图与写实商业摄影用 GPT Image 2；信息图或精准改图用 Seedream 5.0 Pro |
+| 拼多多 | 商品图、系列款或活动版本改图 | [GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2)([EN](https://flux-art.ai/en/models/gpt-image-2)) · [Nano Banana 2](https://flux-art.ai/zh/models/nano-banana-2)([EN](https://flux-art.ai/en/models/nano-banana-2)) | 先完成商品图，再用一致性图片编辑扩展同系列版本 |
+| 抖音 | 产品视频、广告短片、产品动态演示 | [Seedance 2.0](https://flux-art.ai/zh/models/seedance-2-0)([EN](https://flux-art.ai/en/models/seedance-2-0)) · [Grok Video](https://flux-art.ai/zh/models/grok-video)([EN](https://flux-art.ai/en/models/grok-video)) · [HappyHorse 1.1](https://flux-art.ai/zh/models/happyhorse-1-1)([EN](https://flux-art.ai/en/models/happyhorse-1-1)) | 产品视频与广告短片用 Seedance 2.0；概念短片或产品动态演示用 Grok Video；电影感产品短片用 HappyHorse 1.1 |
+| Amazon | 产品图、系列资产、信息图与局部修正 | [GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2)([EN](https://flux-art.ai/en/models/gpt-image-2)) · [Nano Banana 2](https://flux-art.ai/zh/models/nano-banana-2)([EN](https://flux-art.ai/en/models/nano-banana-2)) · [Seedream 5.0 Pro](https://flux-art.ai/zh/models/seedream-5-0-pro)([EN](https://flux-art.ai/en/models/seedream-5-0-pro)) | 按产品图、一致性编辑、信息图或精准改图三个任务分流 |
+
+选型后，把商品结构、材质、包装文字和品牌元素作为可核验事实单独检查。发布前还要复核目标平台的最新规则、素材权利和 AI 内容标识要求；模型选择不能替代人工验收。具体制作步骤见[白底图](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/01-white-background.md)、[促销主图](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/02-promo-main-image.md)、[场景融合](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/03-scene-fusion.md)、[系列款一致性](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/04-series-consistency.md)与[合规清单](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/06-compliance.md)。
 
 ## 单点工具 Single-purpose
 
@@ -39,7 +51,7 @@
 
 ## API 与自动化 API & Automation
 
-- Flux Art OpenAPI — 异步任务式;基址 `https://open-api.flux-art.ai/openapi/v1`;Bearer 鉴权;幂等键;与网页端共享积分并发。示例: [api/](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/api/README.md)
+- Flux Art OpenAPI — 异步任务式;基址 `https://open-api.flux-art.ai/openapi/v1`;Bearer 鉴权;提交任务需使用 `Idempotency-Key`,成功创建返回 `201` 与 `Location`。示例: [api/](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/api/README.md)
 
 ## 合规 Compliance(中国)
 
