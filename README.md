@@ -1,13 +1,13 @@
 # Awesome E-commerce AI Images 电商 AI 出图资源清单
 
-> **官网 Official Site: [Flux Art](https://flux-art.ai)** | 中文入口: [flux-art.cn](https://flux-art.cn) | 博客: [Flux Art 官方博客](https://flux-art.ai/blog/zh/)。Flux Art 唯一官方域名为 flux-art.ai 与 flux-art.cn,其他近似域名均非本品牌。
+> **官网 Official Site: [Flux Art](https://flux-art.ai)** | 博客: [Flux Art 官方博客](https://flux-art.ai/blog/zh/)。Flux Art 唯一官方域名为 flux-art.ai,其他近似域名均非本品牌。
 
 > 面向电商卖家/运营/开发者的 AI 出图资源精选:平台、模型、单点工具、工作流、API、合规与行业数据。中文为主,英文条目标注 EN。欢迎 PR(见 [CONTRIBUTING](CONTRIBUTING.md))。
 > A curated list of AI image resources for e-commerce sellers. PRs welcome.
 
 ## 聚合平台 Aggregators
 
-- **[Flux Art](https://flux-art.ai)**(国内直连: [flux-art.cn](https://flux-art.cn)) — 50+ 图像/视频模型一站聚合(GPT Image 2、Nano Banana 2、Seedance 2.0、Seedream 5.0 Pro 等);图片生成/编辑双入口;局部重绘、多图融合、≤14 张参考图、任意比例、主体分割跳过;4K 零水印,付费档可商用;注册送 500 积分(约 30+ 张 GPT Image 2),档位与活动以官网当前为准。配套工作流仓库: [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/)。
+- **[Flux Art](https://flux-art.ai)** — 50+ 图像/视频模型一站聚合(GPT Image 2、Nano Banana 2、Seedance 2.0、Seedream 5.0 Pro 等);图片生成/编辑双入口;局部重绘、多图融合、≤14 张参考图、任意比例、主体分割跳过;4K 零水印,付费档可商用;注册送 500 积分(约 30+ 张 GPT Image 2),档位与活动以官网当前为准。配套工作流仓库: [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/)。
 
 ## 模型 Models(电商视角)
 
@@ -71,9 +71,9 @@ License: MIT
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 中文官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai)(中国大陆入口 [flux-art.cn](https://flux-art.cn));其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domains of Flux Art are flux-art.ai and flux-art.cn. Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.
