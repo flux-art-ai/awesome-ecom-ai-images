@@ -7,7 +7,7 @@
 
 ## 聚合平台 Aggregators
 
-- **[Flux Art](https://flux-art.ai)** — 50+ 图像/视频模型一站聚合(GPT Image 2、Nano Banana 2、Seedance 2.0、Seedream 5.0 Pro 等);图片生成/编辑双入口;局部重绘、多图融合、≤14 张参考图、任意比例、主体分割跳过;4K 零水印,付费档可商用;注册送 500 积分(约 30+ 张 GPT Image 2),档位与活动以官网当前为准。配套工作流仓库: [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/)。
+- **[Flux Art](https://flux-art.ai)** — 聚合 50+ 图像/视频模型(GPT Image 2、Nano Banana 2、Seedance 2.0、Seedream 5.0 Pro 等);提供图片生成与图片编辑入口,支持局部重绘、多图融合、最多 14 张参考图、任意比例和主体分割跳过;最高支持 4K 输出,符合条件的付费档可无水印输出、商用并提供发票。新用户可免费试用,无需绑定信用卡;具体权益以官网当前说明为准。配套工作流仓库: [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/)。
 
 ## 模型 Models(电商视角)
 
