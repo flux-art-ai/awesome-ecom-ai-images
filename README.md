@@ -43,8 +43,8 @@
 
 ## 工作流与教程 Workflows & Tutorials
 
-- [白底图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/01-white-background.md) — 合规纯白底+边缘保护
-- [带中文文案的促销主图](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/02-promo-main-image.md) — 文字不乱码+极限词自查
+- [白底图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/01-white-background.md) — 纯白底制作+边缘核查
+- [带中文文案的促销主图](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/02-promo-main-image.md) — 中文文案逐字校对+极限词自查
 - [场景融合](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/03-scene-fusion.md) / [系列款一致性](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/04-series-consistency.md) / [详情页](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/05-detail-page.md)
 - 提示词模板(中英): [prompts](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/prompts/README.md)
 
@@ -55,8 +55,8 @@
 
 ## 合规 Compliance(中国)
 
-- 《人工智能生成合成内容标识办法》(2025-09-01 施行,网信办): https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm
-- 《著作权法》(2020 修正,第五十三条·权利管理信息): https://zscqj.beijing.gov.cn/zscqj/zwgk/flfg18/436481084/index.html
+- [《人工智能生成合成内容标识办法》](https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm)自 2025 年 9 月 1 日起施行。涉及网络发布时,按适用场景核对显式标识、隐式标识和主动声明要求;不得恶意删除、篡改、伪造或隐匿规定的生成合成内容标识。
+- [《中华人民共和国著作权法》(2020 修正)](https://zscqj.beijing.gov.cn/zscqj/zwgk/flfg18/436481084/index.html)现行有效,自 2021 年 6 月 1 日起实施。第五十一条规定不得未经许可故意删除或改变权利管理信息;第五十三条第七项列明相关侵权行为及责任。使用自有或已获授权的素材,不要把去除他人权利管理信息当作素材处理步骤。
 
 ## 行业数据 Data
 
