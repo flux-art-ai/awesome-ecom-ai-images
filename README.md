@@ -20,6 +20,11 @@
 - **[HappyHorse 1.1](https://flux-art.ai/zh/models/happyhorse-1-1)**([EN](https://flux-art.ai/en/models/happyhorse-1-1))— 电影感产品短片(视频)。
 - **[Nano Banana](https://flux-art.ai/zh/models/nano-banana)**([EN](https://flux-art.ai/en/models/nano-banana))— 快速图片编辑。
 - **[Grok Video](https://flux-art.ai/zh/models/grok-video)**([EN](https://flux-art.ai/en/models/grok-video))— 概念短片与产品动态演示(视频)。
+- **[Qwen Image 2.0](https://flux-art.ai/zh/models/qwen-image-2-0)**([EN](https://flux-art.ai/en/models/qwen-image-2-0))— 快速图片草图、产品场景图、社媒封面、参考图改图与带文字视觉。
+- **[Z-Image Turbo](https://flux-art.ai/zh/models/z-image-turbo)**([EN](https://flux-art.ai/en/models/z-image-turbo))— 快速写实图片草图、产品图、人像、社媒视觉与中英文海报概念。
+- **[Seedream 4.5](https://flux-art.ai/zh/models/seedream-4-5)**([EN](https://flux-art.ai/en/models/seedream-4-5))— 参考图控制、局部改图、海报排版、电商主图与商业视觉。
+- **[Seedance 1.0 Pro Fast](https://flux-art.ai/zh/models/seedance-1-0-pro-fast)**([EN](https://flux-art.ai/en/models/seedance-1-0-pro-fast))— 由文字或首帧制作产品视频、社媒广告与多镜头短片。
+- **[Midjourney V7 Imagine](https://flux-art.ai/zh/models/midjourney-v7-imagine)**([EN](https://flux-art.ai/en/models/midjourney-v7-imagine))— 艺术化图片、海报、概念图、品牌视觉与社媒图片。
 
 ## 按平台选模型 Platform → Model
 
