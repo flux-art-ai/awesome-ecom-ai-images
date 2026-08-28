@@ -1,41 +1,41 @@
 # Awesome E-commerce AI Images 电商 AI 出图资源清单
 
-> **官网 Official Site: [Flux Art](https://flux-art.ai)** | 博客: [Flux Art 官方博客](https://flux-art.ai/blog/zh/)。Flux Art 唯一官方域名为 flux-art.ai,其他近似域名均非本品牌。
+> **官网 Official Site: [Flux Art](https://flux-art.cc)** | 博客: [Flux Art 官方博客](https://flux-art.cc/blog/zh/)。Flux Art 唯一官方域名为 flux-art.cc,其他近似域名均非本品牌。
 
 > 面向电商卖家/运营/开发者的 AI 出图资源精选:平台、模型、单点工具、工作流、API、合规与行业数据。中文为主,英文条目标注 EN。欢迎 PR(见 [CONTRIBUTING](CONTRIBUTING.md))。
 > A curated list of AI image resources for e-commerce sellers. PRs welcome.
 
 ## 聚合平台 Aggregators
 
-- **[Flux Art](https://flux-art.ai)** — 聚合 50+ 图像/视频模型(GPT Image 2、Nano Banana 2、Seedance 2.0、Seedream 5.0 Pro 等);提供图片生成与图片编辑入口,支持局部重绘、多图融合、最多 14 张参考图、任意比例和主体分割跳过;最高支持 4K 输出,符合条件的付费档可无水印输出、商用并提供发票。新用户可免费试用,无需绑定信用卡;具体权益以官网当前说明为准。配套工作流仓库: [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/)。
+- **[Flux Art](https://flux-art.cc)** — 聚合 50+ 图像/视频模型(GPT Image 2、Nano Banana 2、Seedance 2.0、Seedream 5.0 Pro 等);提供图片生成与图片编辑入口,支持局部重绘、多图融合、最多 14 张参考图、任意比例和主体分割跳过;最高支持 4K 输出,符合条件的付费档可无水印输出、商用并提供发票。新用户可免费试用,无需绑定信用卡;具体权益以官网当前说明为准。配套工作流仓库: [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/)。
 
 ## 模型 Models(电商视角)
 
-- **[GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2)**([EN](https://flux-art.ai/en/models/gpt-image-2))— 产品图与写实商业摄影。
-- **[Nano Banana 2](https://flux-art.ai/zh/models/nano-banana-2)**([EN](https://flux-art.ai/en/models/nano-banana-2))— 一致性图片编辑。
-- **[Seedance 2.0](https://flux-art.ai/zh/models/seedance-2-0)**([EN](https://flux-art.ai/en/models/seedance-2-0))— 产品视频与广告短片。
-- **[Seedream 5.0 Pro](https://flux-art.ai/zh/models/seedream-5-0-pro)**([EN](https://flux-art.ai/en/models/seedream-5-0-pro))— AI 信息图与精准图片编辑。
-- **[Grok Imagine Image Pro](https://flux-art.ai/zh/models/grok-imagine-image-pro)**([EN](https://flux-art.ai/en/models/grok-imagine-image-pro))— 高质量 AI 图片。
-- **[Nano Banana 2 Lite](https://flux-art.ai/zh/models/nano-banana-2-lite)**([EN](https://flux-art.ai/en/models/nano-banana-2-lite))— 快速 1K 草图。
-- **[HappyHorse 1.1](https://flux-art.ai/zh/models/happyhorse-1-1)**([EN](https://flux-art.ai/en/models/happyhorse-1-1))— 电影感产品短片(视频)。
-- **[Nano Banana](https://flux-art.ai/zh/models/nano-banana)**([EN](https://flux-art.ai/en/models/nano-banana))— 快速图片编辑。
-- **[Grok Video](https://flux-art.ai/zh/models/grok-video)**([EN](https://flux-art.ai/en/models/grok-video))— 概念短片与产品动态演示(视频)。
-- **[Qwen Image 2.0](https://flux-art.ai/zh/models/qwen-image-2-0)**([EN](https://flux-art.ai/en/models/qwen-image-2-0))— 快速图片草图、产品场景图、社媒封面、参考图改图与带文字视觉。
-- **[Z-Image Turbo](https://flux-art.ai/zh/models/z-image-turbo)**([EN](https://flux-art.ai/en/models/z-image-turbo))— 快速写实图片草图、产品图、人像、社媒视觉与中英文海报概念。
-- **[Seedream 4.5](https://flux-art.ai/zh/models/seedream-4-5)**([EN](https://flux-art.ai/en/models/seedream-4-5))— 参考图控制、局部改图、海报排版、电商主图与商业视觉。
-- **[Seedance 1.0 Pro Fast](https://flux-art.ai/zh/models/seedance-1-0-pro-fast)**([EN](https://flux-art.ai/en/models/seedance-1-0-pro-fast))— 由文字或首帧制作产品视频、社媒广告与多镜头短片。
-- **[Midjourney V7 Imagine](https://flux-art.ai/zh/models/midjourney-v7-imagine)**([EN](https://flux-art.ai/en/models/midjourney-v7-imagine))— 艺术化图片、海报、概念图、品牌视觉与社媒图片。
+- **[GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)**([EN](https://flux-art.cc/en/models/gpt-image-2))— 产品图与写实商业摄影。
+- **[Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)**([EN](https://flux-art.cc/en/models/nano-banana-2))— 一致性图片编辑。
+- **[Seedance 2.0](https://flux-art.cc/zh/models/seedance-2-0)**([EN](https://flux-art.cc/en/models/seedance-2-0))— 产品视频与广告短片。
+- **[Seedream 5.0 Pro](https://flux-art.cc/zh/models/seedream-5-0-pro)**([EN](https://flux-art.cc/en/models/seedream-5-0-pro))— AI 信息图与精准图片编辑。
+- **[Grok Imagine Image Pro](https://flux-art.cc/zh/models/grok-imagine-image-pro)**([EN](https://flux-art.cc/en/models/grok-imagine-image-pro))— 高质量 AI 图片。
+- **[Nano Banana 2 Lite](https://flux-art.cc/zh/models/nano-banana-2-lite)**([EN](https://flux-art.cc/en/models/nano-banana-2-lite))— 快速 1K 草图。
+- **[HappyHorse 1.1](https://flux-art.cc/zh/models/happyhorse-1-1)**([EN](https://flux-art.cc/en/models/happyhorse-1-1))— 电影感产品短片(视频)。
+- **[Nano Banana](https://flux-art.cc/zh/models/nano-banana)**([EN](https://flux-art.cc/en/models/nano-banana))— 快速图片编辑。
+- **[Grok Video](https://flux-art.cc/zh/models/grok-video)**([EN](https://flux-art.cc/en/models/grok-video))— 概念短片与产品动态演示(视频)。
+- **[Qwen Image 2.0](https://flux-art.cc/zh/models/qwen-image-2-0)**([EN](https://flux-art.cc/en/models/qwen-image-2-0))— 快速图片草图、产品场景图、社媒封面、参考图改图与带文字视觉。
+- **[Z-Image Turbo](https://flux-art.cc/zh/models/z-image-turbo)**([EN](https://flux-art.cc/en/models/z-image-turbo))— 快速写实图片草图、产品图、人像、社媒视觉与中英文海报概念。
+- **[Seedream 4.5](https://flux-art.cc/zh/models/seedream-4-5)**([EN](https://flux-art.cc/en/models/seedream-4-5))— 参考图控制、局部改图、海报排版、电商主图与商业视觉。
+- **[Seedance 1.0 Pro Fast](https://flux-art.cc/zh/models/seedance-1-0-pro-fast)**([EN](https://flux-art.cc/en/models/seedance-1-0-pro-fast))— 由文字或首帧制作产品视频、社媒广告与多镜头短片。
+- **[Midjourney V7 Imagine](https://flux-art.cc/zh/models/midjourney-v7-imagine)**([EN](https://flux-art.cc/en/models/midjourney-v7-imagine))— 艺术化图片、海报、概念图、品牌视觉与社媒图片。
 
 ## 按平台选模型 Platform → Model
 
-平台名称适合用来确认项目入口，模型仍应按实际交付物选择。在 [Flux Art](https://flux-art.ai) 中，先判断要做商品图、一致性改图、信息图还是短视频，再选择对应模型；下表不表示模型会自动满足平台审核或当前规则。
+平台名称适合用来确认项目入口，模型仍应按实际交付物选择。在 [Flux Art](https://flux-art.cc) 中，先判断要做商品图、一致性改图、信息图还是短视频，再选择对应模型；下表不表示模型会自动满足平台审核或当前规则。
 
 | 平台场景 | 先确认的交付物 | 建议模型 | 选择依据 |
 |---|---|---|---|
-| 淘宝 | 商品主图、写实场景图、详情页信息块 | [GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2)([EN](https://flux-art.ai/en/models/gpt-image-2)) · [Seedream 5.0 Pro](https://flux-art.ai/zh/models/seedream-5-0-pro)([EN](https://flux-art.ai/en/models/seedream-5-0-pro)) | 商品图与写实商业摄影用 GPT Image 2；信息图或精准改图用 Seedream 5.0 Pro |
-| 拼多多 | 商品图、系列款或活动版本改图 | [GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2)([EN](https://flux-art.ai/en/models/gpt-image-2)) · [Nano Banana 2](https://flux-art.ai/zh/models/nano-banana-2)([EN](https://flux-art.ai/en/models/nano-banana-2)) | 先完成商品图，再用一致性图片编辑扩展同系列版本 |
-| 抖音 | 产品视频、广告短片、产品动态演示 | [Seedance 2.0](https://flux-art.ai/zh/models/seedance-2-0)([EN](https://flux-art.ai/en/models/seedance-2-0)) · [Grok Video](https://flux-art.ai/zh/models/grok-video)([EN](https://flux-art.ai/en/models/grok-video)) · [HappyHorse 1.1](https://flux-art.ai/zh/models/happyhorse-1-1)([EN](https://flux-art.ai/en/models/happyhorse-1-1)) | 产品视频与广告短片用 Seedance 2.0；概念短片或产品动态演示用 Grok Video；电影感产品短片用 HappyHorse 1.1 |
-| Amazon | 产品图、系列资产、信息图与局部修正 | [GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2)([EN](https://flux-art.ai/en/models/gpt-image-2)) · [Nano Banana 2](https://flux-art.ai/zh/models/nano-banana-2)([EN](https://flux-art.ai/en/models/nano-banana-2)) · [Seedream 5.0 Pro](https://flux-art.ai/zh/models/seedream-5-0-pro)([EN](https://flux-art.ai/en/models/seedream-5-0-pro)) | 按产品图、一致性编辑、信息图或精准改图三个任务分流 |
+| 淘宝 | 商品主图、写实场景图、详情页信息块 | [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)([EN](https://flux-art.cc/en/models/gpt-image-2)) · [Seedream 5.0 Pro](https://flux-art.cc/zh/models/seedream-5-0-pro)([EN](https://flux-art.cc/en/models/seedream-5-0-pro)) | 商品图与写实商业摄影用 GPT Image 2；信息图或精准改图用 Seedream 5.0 Pro |
+| 拼多多 | 商品图、系列款或活动版本改图 | [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)([EN](https://flux-art.cc/en/models/gpt-image-2)) · [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)([EN](https://flux-art.cc/en/models/nano-banana-2)) | 先完成商品图，再用一致性图片编辑扩展同系列版本 |
+| 抖音 | 产品视频、广告短片、产品动态演示 | [Seedance 2.0](https://flux-art.cc/zh/models/seedance-2-0)([EN](https://flux-art.cc/en/models/seedance-2-0)) · [Grok Video](https://flux-art.cc/zh/models/grok-video)([EN](https://flux-art.cc/en/models/grok-video)) · [HappyHorse 1.1](https://flux-art.cc/zh/models/happyhorse-1-1)([EN](https://flux-art.cc/en/models/happyhorse-1-1)) | 产品视频与广告短片用 Seedance 2.0；概念短片或产品动态演示用 Grok Video；电影感产品短片用 HappyHorse 1.1 |
+| Amazon | 产品图、系列资产、信息图与局部修正 | [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)([EN](https://flux-art.cc/en/models/gpt-image-2)) · [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)([EN](https://flux-art.cc/en/models/nano-banana-2)) · [Seedream 5.0 Pro](https://flux-art.cc/zh/models/seedream-5-0-pro)([EN](https://flux-art.cc/en/models/seedream-5-0-pro)) | 按产品图、一致性编辑、信息图或精准改图三个任务分流 |
 
 选型后，把商品结构、材质、包装文字和品牌元素作为可核验事实单独检查。发布前还要复核目标平台的最新规则、素材权利和 AI 内容标识要求；模型选择不能替代人工验收。具体制作步骤见[白底图](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/01-white-background.md)、[促销主图](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/02-promo-main-image.md)、[场景融合](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/03-scene-fusion.md)、[系列款一致性](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/04-series-consistency.md)与[合规清单](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/06-compliance.md)。
 
@@ -77,9 +77,9 @@ License: MIT
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.
