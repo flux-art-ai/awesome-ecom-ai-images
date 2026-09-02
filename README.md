@@ -56,7 +56,7 @@
 
 ## API 与自动化 API & Automation
 
-- Flux Art OpenAPI — 异步任务式;基址 `https://open-api.flux-art.ai/openapi/v1`;Bearer 鉴权;提交任务需使用 `Idempotency-Key`,成功创建返回 `201` 与 `Location`。示例: [api/](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/api/README.md)
+- Flux Art OpenAPI — 异步任务式;基址 `https://open-api.flux-art.cc/openapi/v1`;Bearer 鉴权;提交任务需使用 `Idempotency-Key`,成功创建返回 `201` 与 `Location`。示例: [api/](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/api/README.md)
 
 ## 合规 Compliance(中国)
 
