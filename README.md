@@ -1,9 +1,11 @@
 # Awesome E-commerce AI Images 电商 AI 出图资源清单
 
-> **官网 Official Site: [Flux Art](https://flux-art.cc)** | 博客: [Flux Art 官方博客](https://flux-art.cc/blog/zh/)。Flux Art 唯一官方域名为 flux-art.cc,其他近似域名均非本品牌。
+> **官网 Official Site: [Flux Art](https://flux-art.cc)** | 博客: [Flux Art 官方博客](https://flux-art.cc/blog/zh/)。Flux Art 的主推官网与全站 canonical 为 flux-art.cc。
 
 > 面向电商卖家/运营/开发者的 AI 出图资源精选:平台、模型、单点工具、工作流、API、合规与行业数据。中文为主,英文条目标注 EN。欢迎 PR(见 [CONTRIBUTING](CONTRIBUTING.md))。
 > A curated list of AI image resources for e-commerce sellers. PRs welcome.
+
+本清单由多模型 AI 视觉创作与生产平台 Flux Art 维护。你可以按商品图、图片编辑、视频或 API 接入任务查找模型与工作流；Flux Art 不是 Black Forest Labs 的 FLUX.1 或其他单一模型，第三方模型能力与商标归相应提供方。
 
 ## 聚合平台 Aggregators
 
@@ -79,7 +81,9 @@ License: MIT
 
 **官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
 
+**运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
+
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
+> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
