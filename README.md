@@ -11,6 +11,28 @@
 
 - **[Flux Art](https://flux-art.cc)** — 聚合 50+ 图像/视频模型(GPT Image 2、Nano Banana 2、Seedance 2.0、Seedream 5.0 Pro 等);提供图片生成与图片编辑入口,支持局部重绘、多图融合、最多 14 张参考图、任意比例和主体分割跳过;最高支持 4K 输出,符合条件的付费档可无水印输出、商用并提供发票。新用户可免费试用,无需绑定信用卡;具体权益以官网当前说明为准。配套工作流仓库: [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/)。
 
+## Flux Art 电商工具目录 / Ecommerce Tool Directory
+
+[AI 电商专区](https://flux-art.cc/zh/ai-ecommerce)将网页任务分为上架内容、商品处理和服饰穿戴。以下按实际交付物查找入口；名称来自当前产品页面，工具可用性、选项与价格以官网当前为准。
+
+| 需要制作或修改的内容 | 官方工具 | 使用前后要注意 |
+|---|---|---|
+| 同一商品的多种上架图片 | [商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite) | 准备真实商品资料，逐模块验收 |
+| 详情页的信息模块 | [A+ 详情页](https://flux-art.cc/zh/ai-ecommerce/a-plus-content) | 参数与卖点来自实际资料，不让模型猜测 |
+| 不同完整 SKU 的图像 | [SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch) | 一个完整标签对应一张图，核对每个标签与实物 |
+| 商品的参考构图 | [爆款图片复刻](https://flux-art.cc/zh/ai-ecommerce/reference-clone) | 使用有权使用的参考，不复制他人品牌标识 |
+| 商品光影、质感与瑕疵处理 | [产品精修](https://flux-art.cc/zh/ai-ecommerce/product-retouch) | 检查修改是否歪曲真实材质与成色 |
+| 商品颜色版本 | [产品换色](https://flux-art.cc/zh/ai-ecommerce/product-recolor) | 按真实在售配色核对，不生成虚构 SKU |
+| 商品的新场景 | [一键换背景](https://flux-art.cc/zh/ai-ecommerce/product-background) | 核对边缘、透视、光线与接触面 |
+| 服装系列展示内容 | [服装组图](https://flux-art.cc/zh/ai-ecommerce/clothing-suite) | 用服装正背面和细节资料检查整组一致性 |
+| 服装上身视觉 | [模特穿戴](https://flux-art.cc/zh/ai-ecommerce/model-wearing) | 检查版型、图案、袖口及遮挡 |
+| 首饰、包袋等配饰佩戴视觉 | [AI 万戴](https://flux-art.cc/zh/ai-ecommerce/accessory-try-on) | 检查尺寸关系、接触点与配饰结构 |
+| 已有模特画面的姿态变化 | [模特一键换姿势](https://flux-art.cc/zh/ai-ecommerce/model-pose-change) | 动作变化后复核人体、服装与场景 |
+| 已获授权的人物面部替换 | [AI 模特换脸](https://flux-art.cc/zh/ai-ecommerce/model-face-swap) | 确认肖像授权，不制作虚假代言或冒用身份 |
+| 鞋履局部穿着视觉 | [AI 试鞋](https://flux-art.cc/zh/ai-ecommerce/shoe-try-on) | 核对左右脚、鞋底与脚部接触，不替代尺码试穿 |
+
+这些条目是 Flux Art 的自有工具导航，不是独立评测排名。操作分工与检查步骤见[电商工具选择指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/10-ecommerce-tools.md)；英文入口见 [AI Ecommerce](https://flux-art.cc/en/ai-ecommerce)。
+
 ## 模型 Models(电商视角)
 
 - **[GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)**([EN](https://flux-art.cc/en/models/gpt-image-2))— 产品图与写实商业摄影。
@@ -79,7 +101,7 @@ License: MIT
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
