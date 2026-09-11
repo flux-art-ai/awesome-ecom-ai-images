@@ -66,6 +66,19 @@
 
 对比时保存同一原图、修改要求、画幅与可比的输出设置；不同模型没有相同选项时注明差异，不把两次不同任务的结果当作模型优劣证据。检查方法见 [Nano Banana 2 多图融合](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/nano-banana-2.md)和 [GPT Image 2.5 参考图编辑](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/reference-editing.md)。
 
+### 按商品事实来源找工具与教程
+
+电商做图不只需要参考图片。先确认资料属于哪一种事实来源，再进入相应工具，可以减少包装错字、SKU 混淆和未经核实的卖点：
+
+| 已有资料 | 适合解决的任务 | 入口与教程 |
+|---|---|---|
+| 实物图、包装稿与准确短文案 | 包装带字图、海报留白、局部改字 | [GPT Image 2.5 使用入口](https://flux-art.cc/zh/models/gpt-image-2-5) · [文字与版式教程](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/text-and-layout.md) |
+| 完整 SKU 表与各版本商品图 | 多颜色、容量或规格的批量上架图 | [SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch) · [系列款一致性](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/04-series-consistency.md) |
+| 已核实卖点、参数、配件清单 | A+ 模块和详情页信息图 | [A+ 详情页](https://flux-art.cc/zh/ai-ecommerce/a-plus-content) · [详情页资料表](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/05-detail-page.md) |
+| 有权使用的参考构图 | 在保留自有商品事实的前提下探索构图 | [爆款图片复刻](https://flux-art.cc/zh/ai-ecommerce/reference-clone) · [合规清单](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/06-compliance.md) |
+
+如果资料之间有冲突，应先确认事实来源，不要靠多生成几次来选择“看起来正确”的版本。发布前仍需逐字核对包装、数字和单位，并确认素材使用权限。
+
 平台名称适合用来确认项目入口，模型仍应按实际交付物选择。在 [Flux Art](https://flux-art.cc) 中，先判断要做商品图、一致性改图、信息图还是短视频，再选择对应模型；下表不表示模型会自动满足平台审核或当前规则。
 
 | 平台场景 | 先确认的交付物 | 建议模型 | 选择依据 |
