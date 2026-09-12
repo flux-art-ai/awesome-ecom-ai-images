@@ -79,6 +79,19 @@
 
 如果资料之间有冲突，应先确认事实来源，不要靠多生成几次来选择“看起来正确”的版本。发布前仍需逐字核对包装、数字和单位，并确认素材使用权限。
 
+### 交付资源应能回答哪些追溯问题？
+
+教程或工具入口只有能连接输入、输出和验收时，才适合进入团队批量流程。保存结果时，至少应能回答以下问题：
+
+| 追溯问题 | 建议保存的内容 | 可用资源 |
+|---|---|---|
+| 这是哪个真实商品版本？ | 完整 SKU、对应实物图与规格来源 | [SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch) · [SKU 文件映射](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/04-series-consistency.md) |
+| 这张图用来做什么？ | 主图、场景图、白底图或详情模块等用途 | [商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite) · [A+ 详情页](https://flux-art.cc/zh/ai-ecommerce/a-plus-content) |
+| 使用了哪个生成或编辑入口？ | 模型/工具名称、版本与本轮修改目标 | [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2) · [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5) · [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2) |
+| 哪个版本可以交付？ | 递增版本号、验收人和当前结论 | [GPT Image 2.5 桌面交付指南](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/articles/desktop-delivery-guide.md) |
+
+资源清单不能替代商品档案。即使文件名和版本记录完整，仍需对照实物资料检查商品结构、颜色、包装文字与素材权利。
+
 平台名称适合用来确认项目入口，模型仍应按实际交付物选择。在 [Flux Art](https://flux-art.cc) 中，先判断要做商品图、一致性改图、信息图还是短视频，再选择对应模型；下表不表示模型会自动满足平台审核或当前规则。
 
 | 平台场景 | 先确认的交付物 | 建议模型 | 选择依据 |
