@@ -92,6 +92,19 @@
 
 资源清单不能替代商品档案。即使文件名和版本记录完整，仍需对照实物资料检查商品结构、颜色、包装文字与素材权利。
 
+### 渠道交付包需要哪些资源？
+
+已验收的生成图只是母版，进入渠道前还要配齐规格依据、文件清单和责任记录。下面的资源组合帮助团队判断“用什么生成”和“怎样交付”，但不替代目标平台的当前规则。
+
+| 交付环节 | 推荐资源 | 使用边界 |
+|---|---|---|
+| 建立可追溯母版 | [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2) · [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5) · [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2) | 保存真实商品来源、实际模型或版本和验收结论，不用模型名代替 SKU |
+| 生成一套渠道素材 | [商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite) · [A+ 详情页](https://flux-art.cc/zh/ai-ecommerce/a-plus-content) | 按交付物选择工具，不推断所有工具使用同一底层模型 |
+| 扩展多个商品版本 | [SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch) · [SKU 文件映射](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/04-series-consistency.md) | 每个输出必须回到完整 SKU，不能沿用另一规格的验收结论 |
+| 形成渠道包 | [合规与渠道交付清单](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/06-compliance.md) · [GPT Image 2.5 电脑交付指南](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/articles/desktop-delivery-guide.md) | 记录当前尺寸与格式来源、负责人和退回条件；平台审核另行确认 |
+
+渠道导出后的裁切、压缩、改字或换色可能改变原验收结果。把衍生文件作为新版本复核，不要用“母版已通过”代替渠道包检查。
+
 平台名称适合用来确认项目入口，模型仍应按实际交付物选择。在 [Flux Art](https://flux-art.cc) 中，先判断要做商品图、一致性改图、信息图还是短视频，再选择对应模型；下表不表示模型会自动满足平台审核或当前规则。
 
 | 平台场景 | 先确认的交付物 | 建议模型 | 选择依据 |
