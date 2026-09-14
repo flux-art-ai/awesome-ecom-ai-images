@@ -105,6 +105,18 @@
 
 渠道导出后的裁切、压缩、改字或换色可能改变原验收结果。把衍生文件作为新版本复核，不要用“母版已通过”代替渠道包检查。
 
+### 渠道退回时该查哪类资源？
+
+先比较退回文件、已验收母版和渠道当前要求。三者能把问题分到不同资源，避免为一个导出错误重新生成整张商品图。
+
+| 证据 | 问题归类 | 推荐资源 |
+|---|---|---|
+| 母版中的商品事实或指定保留区已经错误 | 生成/编辑错误 | [商品图排错](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/07-troubleshooting.md) · [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2) · [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5) · [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2) |
+| 母版正确，渠道文件的裁切、压缩、格式或尺寸错误 | 导出错误 | [合规与渠道交付清单](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/06-compliance.md)；只重新导出衍生文件 |
+| 渠道规则、活动文案或交付 SKU 范围变化 | 规格变更 | [商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite) · [SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch)；建立新版本并重新验收 |
+
+资源只能帮助定位和执行，不能代替渠道当前规则。保留退回原因、修正负责人和复核结果，不覆盖已验收母版。
+
 平台名称适合用来确认项目入口，模型仍应按实际交付物选择。在 [Flux Art](https://flux-art.cc) 中，先判断要做商品图、一致性改图、信息图还是短视频，再选择对应模型；下表不表示模型会自动满足平台审核或当前规则。
 
 | 平台场景 | 先确认的交付物 | 建议模型 | 选择依据 |
