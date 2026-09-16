@@ -130,6 +130,19 @@
 
 生成或编辑入口可记录为 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)、[GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)或 [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)；可复制的英文复测模板见[商品图排错流程](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/07-troubleshooting.md)。资源清单只支持追溯，渠道是否接受仍需单独确认。
 
+### 停止修补后需要哪些交接资源？
+
+同一问题连续复测仍失败时，不要只保存最后一张图。按回退、重建和人工处理三类决策准备资源，后续人员才能从已核实状态继续工作。
+
+| 决策 | 必须保留的资源 | 推荐入口 |
+|---|---|---|
+| 回退母版 | 未覆盖原图、最后通过版本、失败图、唯一修改项与前后对照 | [商品图排错停止线](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/07-troubleshooting.md) · [GPT Image 2.5 参考图编辑](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/reference-editing.md) |
+| 重建任务 | 清楚实物图、完整 SKU、已批准包装文字、参数来源与目标交付物 | [详情页商品资料表](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/05-detail-page.md) · [SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch) |
+| 转人工处理 | 原图、通过母版、失败结果、准确文字或品牌素材、差异位置、负责人和期限 | [合规清单](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/06-compliance.md) |
+| 仅重做渠道衍生文件 | 正确母版、当前尺寸/格式依据、导出设置与渠道退回原因 | [商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite) · [渠道交付清单](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/06-compliance.md) |
+
+资源条目不代表某个工具一定能修复问题。最终成品仍要由了解真实商品和渠道要求的人复核。
+
 平台名称适合用来确认项目入口，模型仍应按实际交付物选择。在 [Flux Art](https://flux-art.cc) 中，先判断要做商品图、一致性改图、信息图还是短视频，再选择对应模型；下表不表示模型会自动满足平台审核或当前规则。
 
 | 平台场景 | 先确认的交付物 | 建议模型 | 选择依据 |
