@@ -128,7 +128,19 @@
 | 前后对照 | 修正前后图片、目标区域和未修改区域 | 确认问题消失且没有新增结构、颜色或文字偏差 |
 | 验收结论 | 通过、不通过或回退，复核人和日期 | 防止失败版本覆盖已验收母版 |
 
-生成或编辑入口可记录为 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)、[GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)或 [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)；可复制的英文复测模板见[商品图排错流程](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/07-troubleshooting.md)。资源清单只支持追溯，渠道是否接受仍需单独确认。
+生成或编辑入口可记录为 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)、[GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)或 [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)；可复制的英文复测模板见[商品图排错流程](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/en/07-troubleshooting.md)。资源清单只支持追溯，渠道是否接受仍需单独确认。
+
+### 返修结束后，怎样归档可用资源？
+
+收到人工修复文件后，资源库应分别保留商品事实、通过文件和批次记录。不能把“收到修复件”直接写成“全部可交付”，也不能把人工成果记录为模型独立生成效果。
+
+| 资源层 | 保存什么 | 可参考的操作资料 |
+|---|---|---|
+| 商品依据 | 完整 SKU、真实原图、批准包装稿与配件清单 | [详情页商品资料表](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/05-detail-page.md) |
+| 可继续编辑的基线 | 通过修复件、人工修改范围、版本与整图复核结论 | [GPT Image 2.5 返修验收与继续编辑](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/repair-acceptance-and-batch-restart.md) |
+| 可恢复的批次 | 修正输入版本、受影响 SKU、小样和逐图验收结果 | [系列款批次恢复检查](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/04-series-consistency.md) · [SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch) |
+
+模型入口可保存为 [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)、[GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)或 [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)及实际版本，但入口名称不等于文件验收结论。批次放行、渠道导出和平台审核分别记录，不用资源条目替代商品资料。
 
 ### 停止修补后需要哪些交接资源？
 
