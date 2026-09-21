@@ -181,6 +181,19 @@
 
 常规母版缺失时，可根据交付物选择 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)、[GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)或 [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)，再以真实商品资料人工验收。需要恢复同一商品的一组页面模块时参考[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)，详细操作见[促销主图下线流程](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/02-promo-main-image.md)。这些资源不代替渠道排期、缓存处理或平台审核。
 
+### 多语言商品图需要哪些资源？
+
+从无字常规母版派生中文、英文或其他市场版本时，资源库至少要保存以下四层。把所有语言只放在一个“最终图”文件夹里，会失去术语、母版和渠道版本之间的对应关系。
+
+| 资源层 | 最低字段 | 推荐入口 |
+|---|---|---|
+| 无字常规母版 | 完整 SKU、真实商品依据、版本、文字安全区与验收记录 | 新产品图可参考 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)；已有图的小范围编辑可参考 [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5) |
+| 地区语言包 | 语言/地区代码、批准文案、术语表、品牌名、型号、数字、单位与不可翻译项 | 使用[图片翻译与多语言套图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/08-image-translation.md)建立来源和复核关系 |
+| 语言成品 | 来源母版、语言包版本、实际编辑入口、提示词或任务记录、复核人 | 短标题与限定区域改字见 [GPT Image 2.5 文字与版式](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/text-and-layout.md) |
+| 渠道衍生文件 | 语言、市场、渠道、图片用途、当前尺寸/格式依据和前台截图 | 一套上架资产可从[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)组织，再逐个渠道验收 |
+
+由理解目标语言的人逐字核对术语、断行和语气，并再次检查商品结构、包装文字、裁切与当前渠道规则。资源齐全只能证明过程可追溯，不能代替语言、法律或平台审核。
+
 平台名称适合用来确认项目入口，模型仍应按实际交付物选择。在 [Flux Art](https://flux-art.cc) 中，先判断要做商品图、一致性改图、信息图还是短视频，再选择对应模型；下表不表示模型会自动满足平台审核或当前规则。
 
 | 平台场景 | 先确认的交付物 | 建议模型 | 选择依据 |
