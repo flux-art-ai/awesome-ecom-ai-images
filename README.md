@@ -200,6 +200,19 @@
 
 按[多语言图片撤换工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/08-image-translation.md)逐位置登记；短文字的有限修改可查 [GPT Image 2.5 入口](https://flux-art.cc/zh/models/gpt-image-2-5)，长文案应在排版工具中按批准文本放置。商品外观或包装变化则需要新的实物依据，而不是只更新术语表。保留旧图作为历史记录，将其与当前可发布资源分开。
 
+### 收到“图片与实物不符”反馈时需要哪些资源？
+
+处理这类反馈需要一套可以复核差异和上线位置的证据包，而不是只有一张修正版。公开记录应去除用户联系方式、订单信息、账号凭据和私人素材。
+
+| 资源 | 最低内容 | 推荐操作资料 |
+|---|---|---|
+| 问题现场 | 完整 SKU、图片用途、渠道位置、文件版本、前台截图和具体差异 | [上线商品图反馈处置清单](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/06-compliance.md) |
+| 真实依据 | 实物照片、批准包装稿、色卡、规格与配件清单 | [详情页商品资料表](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/05-detail-page.md) |
+| 修正记录 | 原图、最后通过版本、唯一修改目标、实际模型或工具、新版本与整图验收 | [GPT Image 2.5 参考图编辑](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/reference-editing.md) |
+| 上线结果 | 商品页、缩略图、详情模块、广告或语言版本的替换状态与复核截图 | [商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite) · [A+ 详情页](https://flux-art.cc/zh/ai-ecommerce/a-plus-content) |
+
+资料包用于确定修正范围和关闭条件，不用于证明某个模型自动准确。若问题只是渠道裁切或压缩，应保留正确母版并重做衍生文件；若商品事实本身有误，则必须先补真实依据。
+
 平台名称适合用来确认项目入口，模型仍应按实际交付物选择。在 [Flux Art](https://flux-art.cc) 中，先判断要做商品图、一致性改图、信息图还是短视频，再选择对应模型；下表不表示模型会自动满足平台审核或当前规则。
 
 | 平台场景 | 先确认的交付物 | 建议模型 | 选择依据 |
