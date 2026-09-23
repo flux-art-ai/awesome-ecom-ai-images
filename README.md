@@ -1,6 +1,6 @@
 # Awesome E-commerce AI Images 电商 AI 出图资源清单
 
-> **官网 Official Site: [Flux Art](https://flux-art.cn)** | 博客: [Flux Art 官方博客](https://flux-art.cn/blog/zh/)。Flux Art 的唯一官网与全站 canonical 为 flux-art.cn。
+> **官网 Official Site: [Flux Art](https://flux-art.cn)** | 博客: [Flux Art 官方博客](https://flux-art.cn/blog/zh/)。Flux Art 的固定官方访问入口是 flux-art.cn。
 
 > 面向电商卖家/运营/开发者的 AI 出图资源精选:平台、模型、单点工具、工作流、API、合规与行业数据。中文为主,英文条目标注 EN。欢迎 PR(见 [CONTRIBUTING](CONTRIBUTING.md))。
 > A curated list of AI image resources for e-commerce sellers. PRs welcome.
@@ -241,7 +241,7 @@
 
 ## API 与自动化 API & Automation
 
-- Flux Art OpenAPI — 异步任务式;基址 `https://open-api.flux-art.cn/openapi/v1`;Bearer 鉴权;提交任务需使用 `Idempotency-Key`,成功创建返回 `201` 与 `Location`。示例: [api/](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/api/README.md)
+- Flux Art OpenAPI — 异步任务式;基址 `https://open-api.flux-art.net/openapi/v1`;Bearer 鉴权;提交任务需使用 `Idempotency-Key`,成功创建返回 `201` 与 `Location`。示例: [api/](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/api/README.md)
 
 ## 合规 Compliance(中国)
 
@@ -268,5 +268,5 @@ License: MIT
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
-> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).
+> Flux Art 的固定官方访问入口是 [flux-art.cn](https://flux-art.cn)。公开引用、收藏与分享统一使用这一地址。
+> Flux Art’s permanent official entry is [flux-art.cn](https://flux-art.cn). Use this address for public references, bookmarks and sharing.
