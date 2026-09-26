@@ -226,6 +226,20 @@
 
 已确认的拍摄色偏可从[产品精修](https://flux-art.cn/zh/ai-ecommerce/product-retouch)评估有限修正；真实在售的颜色变体可进入[产品换色](https://flux-art.cn/zh/ai-ecommerce/product-recolor)。两者都不能替代实物、色卡或 SKU 资料。操作分流见[商品颜色排错流程](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/07-troubleshooting.md)。
 
+### 判断透视问题还是结构错误需要哪些资源？
+
+比例异常不能只靠“看起来像”判断。资源包应同时说明真实尺寸、拍摄面和尺度关系，帮助团队决定重拍、有限透视修正，还是回退错误结构。
+
+| 资源 | 应包含什么 | 用来回答什么 |
+|---|---|---|
+| 正视与侧视基线 | 同一完整 SKU 的正面、侧面清楚照片，标明拍摄面和版本 | 商品轮廓与关键部件的真实相对位置是什么 |
+| 尺寸资料 | 长、宽、高及关键部件尺寸、单位、批准来源和版本日期 | 视觉比例是否与真实规格一致；不从生成图反推尺寸 |
+| 尺度参照 | 与商品同平面、尺寸已知的参照物或标尺，以及未裁切原图 | 大小关系是否可比，还是被远近位置放大 |
+| 拍摄记录 | 相机距离、机位方向、裁切范围和原始文件 | 异常是否只出现在近距离或斜拍图中 |
+| 修正证据 | 最后通过母版、唯一修改项、新版本及逐图验收 | 透视修正是否改变轮廓、接口、Logo、文字或材质 |
+
+已确认的拍摄透视问题可评估[产品精修](https://flux-art.cn/zh/ai-ecommerce/product-retouch)；多角度与规格图可通过[商品套图](https://flux-art.cn/zh/ai-ecommerce/product-suite)组织。若多个角度都与尺寸资料冲突，应回到真实素材，而不是继续拉伸图片。完整停止线见[商品图透视与比例排错](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/07-troubleshooting.md)。
+
 ### 商品参考图缺口需要哪些资源？
 
 当目标图会露出原素材看不到的背面、接口、包装小字或配件时，先收集事实资源，再选择模型或电商工具。以下资源可以减少不同 SKU、不同包装版本和不同拍摄角度被误混。
