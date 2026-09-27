@@ -240,6 +240,20 @@
 
 已确认的拍摄透视问题可评估[产品精修](https://flux-art.cn/zh/ai-ecommerce/product-retouch)；多角度与规格图可通过[商品套图](https://flux-art.cn/zh/ai-ecommerce/product-suite)组织。若多个角度都与尺寸资料冲突，应回到真实素材，而不是继续拉伸图片。完整停止线见[商品图透视与比例排错](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/07-troubleshooting.md)。
 
+### 判断高光问题还是材质错误需要哪些资源？
+
+亮面商品的反射会随光线、机位与环境变化。资源包应帮助团队判断是重拍、做一次有界光影修正，还是回到真实素材重建材质，而不是收集更多生成结果。
+
+| 资源 | 应包含什么 | 用来回答什么 |
+|---|---|---|
+| 材质与表面基线 | 同一完整 SKU 的材质说明、涂层、透明或磨砂区域、纹理与接缝近照 | 金属、玻璃、塑料或涂层的真实表面特征是什么 |
+| 稳定光线对照 | 原始未裁切文件、光源方向、柔光或硬光条件、机位与环境记录 | 异常亮斑是拍摄高光、周围环境反射，还是输出改变了材质 |
+| 多角度实拍 | 至少两个可核验角度，保持 SKU、颜色和包装版本一致 | 高光移动时，轮廓、纹理与透明关系是否仍可信 |
+| 保护区域清单 | 标签、Logo、接口、透明窗口、边缘、颜色和阴影 | 一次局部修正是否带动了未要求变化的商品事实 |
+| 版本与验收记录 | 原图、最后通过母版、唯一修改项、新版本和整图对照结论 | 应接受、回退，还是转为整体重建 |
+
+只有一个已证实高光异常时，可从[产品精修](https://flux-art.cn/zh/ai-ecommerce/product-retouch)评估有限修正；限定参考图编辑可比较 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)的 Flare 与 Sunburst。若多个角度都出现塑料感、浑浊玻璃或不可信反射，应回到真实素材，并按交付目标评估 [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2)，而不是反复抹除高光。完整分流见[亮面商品高光与材质排错](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/07-troubleshooting.md)。
+
 ### 商品参考图缺口需要哪些资源？
 
 当目标图会露出原素材看不到的背面、接口、包装小字或配件时，先收集事实资源，再选择模型或电商工具。以下资源可以减少不同 SKU、不同包装版本和不同拍摄角度被误混。
