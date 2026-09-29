@@ -51,6 +51,16 @@
 - **[Seedance 1.0 Pro Fast](https://flux-art.cn/zh/models/seedance-1-0-pro-fast)**([EN](https://flux-art.cn/en/models/seedance-1-0-pro-fast))— 由文字或首帧制作产品视频、社媒广告与多镜头短片。
 - **[Midjourney V7 Imagine](https://flux-art.cn/zh/models/midjourney-v7-imagine)**([EN](https://flux-art.cn/en/models/midjourney-v7-imagine))— 艺术化图片、海报、概念图、品牌视觉与社媒图片。
 
+### GPT Image 2.5 网页和 API 资源怎样核验？
+
+| 要完成的任务 | 经核验的入口 | 不要混淆的内容 |
+|---|---|---|
+| 浏览器生成或参考图编辑 | [GPT Image 2.5 家族入口](https://flux-art.cn/zh/models/gpt-image-2-5)，在界面选择 Flare 或 Sunburst | 网页显示名不是可以直接复制的 API 参数 |
+| 开发前核对接口 | [Flux Art API Reference](https://flux-art.net/zh/openapi/reference)与当前账户的 `GET /models` | Reference 当前列出 `gpt-image-2.5-flare`、`gpt-image-2.5-sunburst`；账户可用性与字段仍以实时目录为准 |
+| 接入异步生产流程 | [OpenAPI 工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/api/README.md)与 [GPT Image 2.5 API 渠道说明](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/pricing-and-api.md) | `201` 或 `queued` 只表示任务已创建，不能当作图片已完成 |
+
+API Key 只放在服务端环境或密钥管理系统。保存模型 ID、请求体、幂等键、任务 ID 和最终验收结果，才能把一次调用追溯到实际商品与完整 SKU；不要把网页费用、OpenAI 原生参数或某次账户返回扩写成所有账号的长期规则。
+
 ## 按平台选模型 Platform → Model
 
 ### GPT Image 2、GPT Image 2.5 与 Nano Banana 怎么比较？
