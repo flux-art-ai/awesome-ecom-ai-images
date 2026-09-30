@@ -291,6 +291,20 @@ API Key 只放在服务端环境或密钥管理系统。保存模型 ID、请求
 
 [服装组图](https://flux-art.cn/zh/ai-ecommerce/clothing-suite)可组织平铺、人台和服装展示基线，[模特穿戴](https://flux-art.cn/zh/ai-ecommerce/model-wearing)用于上身候选，[模特一键换姿势](https://flux-art.cn/zh/ai-ecommerce/model-pose-change)用于已有模特图的姿势变化。限定参考图编辑可比较 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5) 的 Flare 与 Sunburst，但最终版型、面料、尺码和穿着效果仍须由真实商品资料支持。完整判断表见[AI 模特图与服装形变验收](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/09-model-photo.md)。
 
+### AI 试鞋需要哪些事实资源？
+
+鞋履上脚图的资源包必须同时说明商品结构和展示条件。只有一张好看的侧面图，无法验证另一侧、后跟、鞋底或左右方向，也不能支持尺码和舒适性结论。
+
+| 资源 | 应包含什么 | 用来回答什么 |
+|---|---|---|
+| 多角度鞋履图 | 同一完整 SKU 的正面、内外侧、背面和鞋底；标明左鞋、右鞋与配色 | 鞋型、左右方向、后跟和外底结构是否正确 |
+| 部件与材质近照 | 鞋带孔、鞋带、扣件、车线、拼接、Logo、五金和材质说明 | 输出是否增删部件、镜像标识、改变纹理或串色 |
+| 模特与授权记录 | AI 模特选择，或自定义模特的素材来源、使用授权和适用范围 | 人物是否可用于当前发布场景 |
+| 展示说明 | 鞋履特写或目标裁切、站姿/步态、场景、袜子、下装与版位 | 哪些遮挡和接触关系是预期，哪些属于生成错误 |
+| 逐图验收记录 | 输入图、候选图、左右方向、鞋底、脚部接触、地面阴影和退回原因 | 当前版本能否继续编辑、需要补拍还是应回退 |
+
+从 [AI 试鞋](https://flux-art.cn/zh/ai-ecommerce/shoe-try-on)制作上脚候选；不含人物的产品图可评估 [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2)，单一区域有界修正可评估 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)，已验收系列图的一致性扩展可评估 [Nano Banana 2](https://flux-art.cn/zh/models/nano-banana-2)。这些模型和工具的输出都不能替代真实尺码、楦型、舒适性或真人试穿资料。完整流程见[鞋履上脚工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/09-model-photo.md)。
+
 平台名称适合用来确认项目入口，模型仍应按实际交付物选择。在 [Flux Art](https://flux-art.cn) 中，先判断要做商品图、一致性改图、信息图还是短视频，再选择对应模型；下表不表示模型会自动满足平台审核或当前规则。
 
 | 平台场景 | 先确认的交付物 | 建议模型 | 选择依据 |
