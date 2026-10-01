@@ -42,6 +42,7 @@
 - **[Seedream 5.0 Pro](https://flux-art.cn/zh/models/seedream-5-0-pro)**([EN](https://flux-art.cn/en/models/seedream-5-0-pro))— AI 信息图与精准图片编辑。
 - **[Grok Imagine Image Pro](https://flux-art.cn/zh/models/grok-imagine-image-pro)**([EN](https://flux-art.cn/en/models/grok-imagine-image-pro))— 高质量 AI 图片。
 - **[Nano Banana 2 Lite](https://flux-art.cn/zh/models/nano-banana-2-lite)**([EN](https://flux-art.cn/en/models/nano-banana-2-lite))— 快速 1K 草图。
+- **[Nano Banana Pro](https://flux-art.cn/zh/models/nano-banana-pro)**([EN](https://flux-art.cn/en/models/nano-banana-pro))— 当前提供 1K、2K、4K 的图片生成与编辑入口。
 - **[HappyHorse 1.1](https://flux-art.cn/zh/models/happyhorse-1-1)**([EN](https://flux-art.cn/en/models/happyhorse-1-1))— 电影感产品短片(视频)。
 - **[Nano Banana](https://flux-art.cn/zh/models/nano-banana)**([EN](https://flux-art.cn/en/models/nano-banana))— 快速图片编辑。
 - **[Grok Video](https://flux-art.cn/zh/models/grok-video)**([EN](https://flux-art.cn/en/models/grok-video))— 概念短片与产品动态演示(视频)。
@@ -60,6 +61,19 @@
 | 接入异步生产流程 | [OpenAPI 工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/api/README.md)与 [GPT Image 2.5 API 渠道说明](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/pricing-and-api.md) | `201` 或 `queued` 只表示任务已创建，不能当作图片已完成 |
 
 API Key 只放在服务端环境或密钥管理系统。保存模型 ID、请求体、幂等键、任务 ID 和最终验收结果，才能把一次调用追溯到实际商品与完整 SKU；不要把网页费用、OpenAI 原生参数或某次账户返回扩写成所有账号的长期规则。
+
+### Nano Banana 家族资源怎样核验？
+
+网页名称、API 模型 ID 和任务用途是三层不同信息。先从官方模型页确认当前网页能力；程序接入再以 [API Reference](https://flux-art.net/zh/openapi/reference)和已认证账户的 `GET /models` 为准。匿名请求不会返回可用模型目录。
+
+| 网页版本 | 当前公开用途与规格 | Reference 当前列出的模型 ID | 不应推断 |
+|---|---|---|---|
+| [Nano Banana](https://flux-art.cn/zh/models/nano-banana) · [EN](https://flux-art.cn/en/models/nano-banana) | 1K 快速图片编辑，编辑最多三张参考图 | `gemini-2.5-flash-image` | 不把家族名当成 Nano Banana 2 或 Pro |
+| [Nano Banana 2 Lite](https://flux-art.cn/zh/models/nano-banana-2-lite) · [EN](https://flux-art.cn/en/models/nano-banana-2-lite) | 1K 快速草图 | `gemini-3.1-flash-lite-image` | 不把 Lite 草图直接当作已验收商品资产 |
+| [Nano Banana 2](https://flux-art.cn/zh/models/nano-banana-2) · [EN](https://flux-art.cn/en/models/nano-banana-2) | 512、1K、2K、4K 的生成与一致性编辑路径 | `gemini-3.1-flash-image-preview` | 不把网页名直接复制为 API 参数 |
+| [Nano Banana Pro](https://flux-art.cn/zh/models/nano-banana-pro) · [EN](https://flux-art.cn/en/models/nano-banana-pro) | 1K、2K、4K 的图片生成与编辑 | `gemini-3-pro-image-preview` | 不因 Pro 名称省略文字、事实和保护区域复核 |
+
+创建任务前保存实际 `GET /models` 返回、所用 ID 与字段；`201` 或 `queued` 只表示任务已创建。网页规格和 API 可用性可能变化，具体设置以当前页面与账户目录为准。
 
 ## 按平台选模型 Platform → Model
 
@@ -354,7 +368,7 @@ License: MIT
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.net/blog/zh/) · [Official Blog (EN)](https://flux-art.net/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
