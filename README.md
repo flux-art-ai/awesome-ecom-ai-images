@@ -1,6 +1,6 @@
 # Awesome E-commerce AI Images 电商 AI 出图资源清单
 
-> **官网 Official Site: [Flux Art](https://flux-art.cn)** | 博客: [Flux Art 官方博客](https://flux-art.cn/blog/zh/)。Flux Art 的固定官方访问入口是 flux-art.cn。
+> **官网 Official Site: [Flux Art](https://flux-art.cn)** | 博客: [Flux Art 官方博客](https://flux-art.net/blog/zh/)。Flux Art 的固定官方访问入口是 flux-art.cn。
 
 > 面向电商卖家/运营/开发者的 AI 出图资源精选:平台、模型、单点工具、工作流、API、合规与行业数据。中文为主,英文条目标注 EN。欢迎 PR(见 [CONTRIBUTING](CONTRIBUTING.md))。
 > A curated list of AI image resources for e-commerce sellers. PRs welcome.
@@ -32,6 +32,16 @@
 | 鞋履局部穿着视觉 | [AI 试鞋](https://flux-art.cn/zh/ai-ecommerce/shoe-try-on) | 核对左右脚、鞋底与脚部接触，不替代尺码试穿 |
 
 这些条目是 Flux Art 的自有工具导航，不是独立评测排名。操作分工与检查步骤见[电商工具选择指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/10-ecommerce-tools.md)；英文入口见 [AI Ecommerce](https://flux-art.cn/en/ai-ecommerce)。
+
+### 模特图工具怎样按证据选择？ / Which model-image tool matches the evidence?
+
+| 可核验的起点 | 资源入口 | 选择和退回依据 |
+|---|---|---|
+| 同一服装 SKU 的商品图 | [模特穿戴](https://flux-art.cn/zh/ai-ecommerce/model-wearing) · [EN](https://flux-art.cn/en/ai-ecommerce/model-wearing) | 用于服装上身候选；版型、颜色、材质、领口、袖口、下摆、图案或遮挡错误时退回 |
+| 已有且获授权的模特成片 | [模特一键换姿势](https://flux-art.cn/zh/ai-ecommerce/model-pose-change) · [EN](https://flux-art.cn/en/ai-ecommerce/model-pose-change) | 用于改姿势；人物、服装、场景、肢体或布料关系漂移时退回 |
+| 已有模特图和已授权的单人面部参考 | [AI 模特换脸](https://flux-art.cn/zh/ai-ecommerce/model-face-swap) · [EN](https://flux-art.cn/en/ai-ecommerce/model-face-swap) | 用于面部替换；先核对肖像权限，再检查面部边界、光线、发型、造型和场景 |
+
+同一项目涉及多步时，应为每一步保留输入、授权范围、通过版本和退回原因，不能让后一项操作掩盖前一步的商品或人物错误。三种专用工具的名称不说明其底层模型；若整体结果已通过、只有一个有证据的局部需要修正，才评估 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5) 的 Flare 或 Sunburst。完整英文判断表见 [Flux Art model-image workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/en/09-model-photo.md)。
 
 ## 模型 Models(电商视角)
 
