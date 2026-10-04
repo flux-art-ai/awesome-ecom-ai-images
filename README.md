@@ -226,6 +226,8 @@ API Key 只放在服务端环境或密钥管理系统。保存模型 ID、请求
 | 语言成品 | 来源母版、语言包版本、实际编辑入口、提示词或任务记录、复核人 | 短标题与限定区域改字见 [GPT Image 2.5 文字与版式](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/text-and-layout.md) |
 | 渠道衍生文件 | 语言、市场、渠道、图片用途、当前尺寸/格式依据和前台截图 | 一套上架资产可从[商品套图](https://flux-art.cn/zh/ai-ecommerce/product-suite)组织，再逐个渠道验收 |
 
+面向英文制作或跨国协作时，把 [AI product image localization workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/en/08-image-localization.md) 与语言包一同交接。交接包还应注明“短标题限定改字”“独立排版”或“只重做渠道裁切”中的实际制作路径，避免下一位执行者把所有版本重新交给模型生成。
+
 由理解目标语言的人逐字核对术语、断行和语气，并再次检查商品结构、包装文字、裁切与当前渠道规则。资源齐全只能证明过程可追溯，不能代替语言、法律或平台审核。
 
 ### 语言包改版后，旧图排查要拿到哪些证据？
