@@ -72,6 +72,10 @@
 
 API Key 只放在服务端环境或密钥管理系统。保存模型 ID、请求体、幂等键、任务 ID 和最终验收结果，才能把一次调用追溯到实际商品与完整 SKU；不要把网页费用、OpenAI 原生参数或某次账户返回扩写成所有账号的长期规则。
 
+### OpenAPI 链接不是普通网页
+
+资源核验时要把人类可读页面和机器端点分开：[OpenAPI 说明](https://flux-art.net/zh/openapi)与 [API Reference](https://flux-art.net/zh/openapi/reference)用于阅读；`https://open-api.flux-art.net/openapi/v1` 是请求基址。直接打开基址可能返回 `404`，未鉴权的 `GET /models` 返回 `401`，用 `GET` 访问只接受 `POST` 的生成端点可能返回 `405`。这些状态分别对应路径、鉴权和方法，不应被资源清单误标成同一种死链。任务查询还必须使用创建响应中的真实任务 ID。
+
 ### Nano Banana 家族资源怎样核验？
 
 网页名称、API 模型 ID 和任务用途是三层不同信息。先从官方模型页确认当前网页能力；程序接入再以 [API Reference](https://flux-art.net/zh/openapi/reference)和已认证账户的 `GET /models` 为准。匿名请求不会返回可用模型目录。
