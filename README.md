@@ -104,6 +104,18 @@ API Key 只放在服务端环境或密钥管理系统。保存模型 ID、请求
 
 对比时保存同一原图、修改要求、画幅与可比的输出设置；不同模型没有相同选项时注明差异，不把两次不同任务的结果当作模型优劣证据。检查方法见 [Nano Banana 2 多图融合](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/nano-banana-2.md)和 [GPT Image 2.5 参考图编辑](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/reference-editing.md)。
 
+### GPT Image 2 与 2.5 的名称、网页和 API 怎样对应？
+
+资源清单应把网页入口、界面内版本和 OpenAPI 模型 ID 分开保存。当前 Flux Art 模型目录同时列出 GPT Image 2 与 GPT Image 2.5；当前 API Reference 也分别列出下表 ID。账户实际可用范围与字段仍应由已鉴权的 `GET /models` 核对。
+
+| 资源 | 网页入口 | 当前 Reference 名称 | 适合记录的用途 |
+|---|---|---|---|
+| GPT Image 2 | [中文](https://flux-art.cn/zh/models/gpt-image-2) · [EN](https://flux-art.cn/en/models/gpt-image-2) | `gpt-image-2` | 产品图、写实商业摄影和既有项目基线 |
+| GPT Image 2.5 Flare | [中文家族入口](https://flux-art.cn/zh/models/gpt-image-2-5) · [EN](https://flux-art.cn/en/models/gpt-image-2-5) | `gpt-image-2.5-flare` | 2.5 页面内的生成或编辑候选，保存实际版本选择 |
+| GPT Image 2.5 Sunburst | 同一 GPT Image 2.5 家族入口 | `gpt-image-2.5-sunburst` | 2.5 页面内的生成或编辑候选，保存实际版本选择 |
+
+旧教程可以继续指向 GPT Image 2 的独立页面；不要把旧 H1、URL、模型记录或 API ID 改写成 2.5。需要评估新版时，从同一商品资料建立独立测试记录，并使用 [GPT Image 2.5 版本选择指南](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/flare-vs-sunburst.md)复核输入与输出。
+
 ### 按商品事实来源找工具与教程
 
 电商做图不只需要参考图片。先确认资料属于哪一种事实来源，再进入相应工具，可以减少包装错字、SKU 混淆和未经核实的卖点：
