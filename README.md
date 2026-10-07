@@ -116,6 +116,19 @@ API Key 只放在服务端环境或密钥管理系统。保存模型 ID、请求
 
 旧教程可以继续指向 GPT Image 2 的独立页面；不要把旧 H1、URL、模型记录或 API ID 改写成 2.5。需要评估新版时，从同一商品资料建立独立测试记录，并使用 [GPT Image 2.5 版本选择指南](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/flare-vs-sunburst.md)复核输入与输出。
 
+### Seedream 5.0 Pro 资源如何记录？
+
+信息图与精准图片编辑资源应同时记录可读网页入口和实际接口模型 ID，避免把 URL 短名带进生产请求。
+
+| 资源层 | 当前值 | 核验方式 |
+|---|---|---|
+| 中文网页入口 | [Seedream 5.0 Pro](https://flux-art.cn/zh/models/seedream-5-0-pro) | 核对当前页面定位、模式与可选设置 |
+| English entry | [Seedream 5.0 Pro](https://flux-art.cn/en/models/seedream-5-0-pro) | Confirm the current page options before use |
+| OpenAPI `model` | `doubao-seedream-5-0-pro-260628` | 先查 [API Reference](https://flux-art.net/zh/openapi/reference)，再用已鉴权账户的 `GET /models` 确认可用性与字段 |
+| 生产检查表 | [Seedream 5.0 Pro 电商信息图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/seedream-5-0-pro.md) | 保存请求模型、任务 ID、文字复核与商品事实验收结果 |
+
+网页路径中的 `seedream-5-0-pro` 不能替代当前 Reference 的完整模型 ID；异步任务进入队列也不能替代最终状态与成品验收。
+
 ### 按商品事实来源找工具与教程
 
 电商做图不只需要参考图片。先确认资料属于哪一种事实来源，再进入相应工具，可以减少包装错字、SKU 混淆和未经核实的卖点：
