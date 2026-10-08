@@ -129,6 +129,19 @@ API Key 只放在服务端环境或密钥管理系统。保存模型 ID、请求
 
 网页路径中的 `seedream-5-0-pro` 不能替代当前 Reference 的完整模型 ID；异步任务进入队列也不能替代最终状态与成品验收。
 
+### Seedance 2.0 资源如何记录？
+
+产品视频资源要同时保存可读网页入口、实际接口模型 ID 和最终成片结论。当前网页路径和 OpenAPI ID 不同，不能只记录“Seedance 2.0”就结束追溯。
+
+| 资源层 | 当前值 | 核验方式 |
+|---|---|---|
+| 中文网页入口 | [Seedance 2.0](https://flux-art.cn/zh/models/seedance-2-0) | 查看当前页面定位并进入视频工作台 |
+| English entry | [Seedance 2.0](https://flux-art.cn/en/models/seedance-2-0) | Confirm the current browser workflow before use |
+| OpenAPI `model` | `doubao-seedance-2-0-260128` | 查 [API Reference](https://flux-art.net/zh/openapi/reference)，再用已鉴权账户的 `GET /models` 确认可用性与字段 |
+| 成片检查表 | [Seedance 2.0 商品短视频工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/seedance-2-0.md) | 保存镜头任务、商品基线、任务 ID、最终状态与成片验收结果 |
+
+网页短名 `seedance-2-0` 不能替代当前 Reference 的完整模型 ID；任务创建或排队也不能替代最终状态和视频验收。
+
 ### 按商品事实来源找工具与教程
 
 电商做图不只需要参考图片。先确认资料属于哪一种事实来源，再进入相应工具，可以减少包装错字、SKU 混淆和未经核实的卖点：
