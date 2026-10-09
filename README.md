@@ -89,6 +89,18 @@ API Key 只放在服务端环境或密钥管理系统。保存模型 ID、请求
 
 创建任务前保存实际 `GET /models` 返回、所用 ID 与字段；`201` 或 `queued` 只表示任务已创建。网页规格和 API 可用性可能变化，具体设置以当前页面与账户目录为准。
 
+### Qwen Image 2.0 资源怎样避免用错模型 ID？
+
+网页路径、工作台选中值和 OpenAPI `model` 需分开保存。[Qwen Image 2.0 中文页](https://flux-art.cn/zh/models/qwen-image-2-0)与 [English page](https://flux-art.cn/en/models/qwen-image-2-0)的 URL 使用 `qwen-image-2-0`，页面 CTA 与当前 [API Reference](https://flux-art.net/zh/openapi/reference)则使用 `qwen-image-2.0`。
+
+| 资源层 | 当前核验值 | 使用边界 |
+|---|---|---|
+| 网页模型入口 | `qwen-image-2-0` | 用于首轮图片草图、产品场景、社媒封面、参考图轻编辑或带文字视觉 |
+| OpenAPI `model` | `qwen-image-2.0` | 请求前仍用已鉴权 `GET /models` 确认账户可用性和接受字段 |
+| 任务记录 | 完整 SKU、用途、请求模型、任务 ID、最终状态和验收结论 | 草图和排队状态不是可交付证据；商品事实与文字仍需单独验收 |
+
+这是名称与证据对照，不是与 GPT Image 2.5、Nano Banana 或其他模型的效果排名。模型能力来自阿里 Qwen-Image 2.0 系列，Flux Art 提供多模型工作台与 OpenAPI。
+
 ## 按平台选模型 Platform → Model
 
 ### GPT Image 2、GPT Image 2.5 与 Nano Banana 怎么比较？
