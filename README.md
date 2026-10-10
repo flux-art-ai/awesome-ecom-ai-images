@@ -45,6 +45,7 @@
 
 ## 模型 Models(电商视角)
 
+- **[Nano Banana 2.1](https://flux-art.cn/zh/models/nano-banana-2-1)**（[EN](https://flux-art.cn/en/models/nano-banana-2-1)）— 官网 2026-10-09 更新日志确认已上线，支持图片生成与编辑、最高 4K。用于电商时先拿同一真实 SKU 做代表样本并核对未修改区域；不要由网页 slug 推测 API ID。
 - **[GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)**（[EN](https://flux-art.cn/en/models/gpt-image-2-5)）— Flare 与 Sunburst 的图片生成、参考图编辑入口；[使用渠道与教程](https://github.com/flux-art-ai/gpt-image-2.5)说明版本选择、提示词和商品图验收，适合先完成代表样本再扩展电商交付。
 - **[GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2)**([EN](https://flux-art.cn/en/models/gpt-image-2))— 产品图与写实商业摄影。
 - **[Nano Banana 2](https://flux-art.cn/zh/models/nano-banana-2)**([EN](https://flux-art.cn/en/models/nano-banana-2))— 一致性图片编辑。
