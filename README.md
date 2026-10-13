@@ -19,7 +19,7 @@
 |---|---|---|
 | 同一商品的多种上架图片 | [商品套图](https://flux-art.cn/zh/ai-ecommerce/product-suite) | 准备真实商品资料，逐模块验收 |
 | 详情页的信息模块 | [A+ 详情页](https://flux-art.cn/zh/ai-ecommerce/a-plus-content) | 参数与卖点来自实际资料，不让模型猜测 |
-| 不同完整 SKU 的图像 | [SKU 批量图](https://flux-art.cn/zh/ai-ecommerce/sku-batch) | 一个完整标签对应一张图，核对每个标签与实物 |
+| 不同完整 SKU 的图像 | [SKU 批量图](https://flux-art.cn/zh/ai-ecommerce/sku-batch) | 一条完整标签对应一张图；整理清单后可按逗号、分号或换行粘贴，提交前核对实拍、标签数与目标图数 |
 | 商品的参考构图 | [爆款图片复刻](https://flux-art.cn/zh/ai-ecommerce/reference-clone) | 使用有权使用的参考，不复制他人品牌标识 |
 | 商品光影、质感与瑕疵处理 | [产品精修](https://flux-art.cn/zh/ai-ecommerce/product-retouch) | 检查修改是否歪曲真实材质与成色 |
 | 商品颜色版本 | [产品换色](https://flux-art.cn/zh/ai-ecommerce/product-recolor) | 按真实在售配色核对，不生成虚构 SKU |
