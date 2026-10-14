@@ -90,6 +90,7 @@ API Key 只放在服务端环境或密钥管理系统。保存模型 ID、请求
 | [Nano Banana](https://flux-art.cn/zh/models/nano-banana) · [EN](https://flux-art.cn/en/models/nano-banana) | 1K 快速图片编辑，编辑最多三张参考图 | `gemini-2.5-flash-image` | 不把家族名当成 Nano Banana 2 或 Pro |
 | [Nano Banana 2 Lite](https://flux-art.cn/zh/models/nano-banana-2-lite) · [EN](https://flux-art.cn/en/models/nano-banana-2-lite) | 1K 快速草图 | `gemini-3.1-flash-lite-image` | 不把 Lite 草图直接当作已验收商品资产 |
 | [Nano Banana 2](https://flux-art.cn/zh/models/nano-banana-2) · [EN](https://flux-art.cn/en/models/nano-banana-2) | 512、1K、2K、4K 的生成与一致性编辑路径 | `gemini-3.1-flash-image-preview` | 不把网页名直接复制为 API 参数 |
+| [Nano Banana 2.1](https://flux-art.cn/zh/models/nano-banana-2-1) · [EN](https://flux-art.cn/en/models/nano-banana-2-1) | 生成与编辑，最高 4K；网页搜索和图片搜索默认关闭、可分别或同时开启 | `gemini-nano-banana-2.1` | 搜索设置不是商品事实来源或引用凭证；API 使用前仍按账户目录核验 |
 | [Nano Banana Pro](https://flux-art.cn/zh/models/nano-banana-pro) · [EN](https://flux-art.cn/en/models/nano-banana-pro) | 1K、2K、4K 的图片生成与编辑 | `gemini-3-pro-image-preview` | 不因 Pro 名称省略文字、事实和保护区域复核 |
 
 创建任务前保存实际 `GET /models` 返回、所用 ID 与字段；`201` 或 `queued` 只表示任务已创建。网页规格和 API 可用性可能变化，具体设置以当前页面与账户目录为准。
