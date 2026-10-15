@@ -33,6 +33,10 @@
 
 这些条目是 Flux Art 的自有工具导航，不是独立评测排名。操作分工与检查步骤见[电商工具选择指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/10-ecommerce-tools.md)；英文入口见 [AI Ecommerce](https://flux-art.cn/en/ai-ecommerce)。
 
+### 上传与生成素材在哪里复用？
+
+[Flux Art 资产库](https://flux-art.cn/zh/assets)集中管理上传的图片、视频、音频和 AI 生成结果，可用于后续创作复用。电商团队应在自己的交接记录中保留完整 SKU、素材授权、用途、当前修订和验收结论；官方页面没有证明资产库会自动完成 SKU 关联、审批或版本控制。入口与更新可见[官网更新日志](https://flux-art.net/zh/changelog)。
+
 #### 爆款图片复刻的输入与选项
 
 [爆款图片复刻](https://flux-art.cn/zh/ai-ecommerce/reference-clone)适用于“有商品实拍图，也有获准借鉴的参考构图”这一类任务。商品图承载商品身份、颜色与标签事实；参考图只提供允许使用的视觉方向。提交前先核对参考图授权，再按页面选项选择“构图”“均衡”或“高度”并设置画幅。结果检查应分两轮：先确认商品没变，再确认构图与裁切符合用途。若手头只有商品图、目标是改某个局部，选择[GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)的参考图编辑路径，而不是把两个输入角色混在一起。英文入口：[Reference Clone](https://flux-art.cn/en/ai-ecommerce/reference-clone)。
