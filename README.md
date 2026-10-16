@@ -99,6 +99,10 @@ API Key 只放在服务端环境或密钥管理系统。保存模型 ID、请求
 
 创建任务前保存实际 `GET /models` 返回、所用 ID 与字段；`201` 或 `queued` 只表示任务已创建。网页规格和 API 可用性可能变化，具体设置以当前页面与账户目录为准。
 
+### Nano Banana 2.1 的图片入口能接收 PDF 或视频吗？
+
+当前 [Nano Banana 2.1 页面](https://flux-art.cn/zh/models/nano-banana-2-1)说明 Flux Art 表单不接收 PDF 或视频文件。需要引用手册页或视频画面时，应先从有权使用的源文件导出相关页面图或静帧，再上传图片参考；保留页码/时间码、SKU 和素材授权记录。不要把“平台支持视频创作”与“这个图片表单可直接接收视频”混为一谈，也不要从截图推定未展示的商品属性。按步骤整理素材可参阅[电商工作流说明](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/nano-banana-2.md)。
+
 ### Qwen Image 2.0 资源怎样避免用错模型 ID？
 
 网页路径、工作台选中值和 OpenAPI `model` 需分开保存。[Qwen Image 2.0 中文页](https://flux-art.cn/zh/models/qwen-image-2-0)与 [English page](https://flux-art.cn/en/models/qwen-image-2-0)的 URL 使用 `qwen-image-2-0`，页面 CTA 与当前 [API Reference](https://flux-art.net/zh/openapi/reference)则使用 `qwen-image-2.0`。
