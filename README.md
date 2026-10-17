@@ -179,6 +179,17 @@ API Key 只放在服务端环境或密钥管理系统。保存模型 ID、请求
 | 已核实卖点、参数、配件清单 | A+ 模块和详情页信息图 | [A+ 详情页](https://flux-art.cn/zh/ai-ecommerce/a-plus-content) · [详情页资料表](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/05-detail-page.md) |
 | 有权使用的参考构图 | 在保留自有商品事实的前提下探索构图 | [爆款图片复刻](https://flux-art.cn/zh/ai-ecommerce/reference-clone) · [合规清单](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/06-compliance.md) |
 
+选择 A+ 详情页工具前，可用下列资料包核对每个模块，而不是把一段总提示词当成事实来源：
+
+| 资料包字段 | 核验内容 | 常见退回原因 |
+|---|---|---|
+| 主体图 | 完整 SKU、商品版本、可见外观和授权来源 | 图片对应旧包装或无法确认商品版本 |
+| 商品信息 | 名称、类目、型号、参数、数值单位和来源版本 | 参数缺来源、单位不一致或把推测写成卖点 |
+| 模块 brief | 每个模块要表达的单一信息、顺序、必须保留项 | 多个主张挤在同一模块或模块间相互矛盾 |
+| 输出检查 | 目标渠道、比例、图片语言、文字与裁切复核人 | 数字、标签、移动端裁切或阅读顺序未复核 |
+
+[A+ 详情页工具](https://flux-art.cn/zh/ai-ecommerce/a-plus-content)当前页面要求上传 1–5 张商品图、填写名称和类目、补充已确认的信息，再选择模块与生成设置。该流程能帮助组织视觉模块，不会替代商品资料核实或平台审核；需要模型单图编辑时，另走 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)入口并在界面选 Flare 或 Sunburst，不据此推断 A+ 固定采用该模型。
+
 如果资料之间有冲突，应先确认事实来源，不要靠多生成几次来选择“看起来正确”的版本。发布前仍需逐字核对包装、数字和单位，并确认素材使用权限。
 
 ### 交付资源应能回答哪些追溯问题？
