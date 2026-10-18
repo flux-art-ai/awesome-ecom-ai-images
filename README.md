@@ -51,6 +51,18 @@
 
 同一项目涉及多步时，应为每一步保留输入、授权范围、通过版本和退回原因，不能让后一项操作掩盖前一步的商品或人物错误。三种专用工具的名称不说明其底层模型；若整体结果已通过、只有一个有证据的局部需要修正，才评估 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5) 的 Flare 或 Sunburst。完整英文判断表见 [Flux Art model-image workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/en/09-model-photo.md)。
 
+### 商品图的文件名和 `alt` 文本资源
+
+图片生成后，文件本身并不会自动具备适合商品页的描述。先从 [Google 图片 SEO 最佳实践](https://developers.google.com/search/docs/appearance/google-images?hl=zh-CN)核对图片发现、描述性文件名、页面语境和替代文本规则：文件名可简短描述画面并与 SKU 交付记录关联；`alt` 写图片中真实可见的内容，不应复制关键词列表。Google 将文件名视为较轻的主题线索，并结合图片替代文本与页面内容理解图片，因此这份资源用于改善清晰度和可访问性，不代表收录或排名保证。
+
+| 交接资源 | 应保存的内容 | 避免的问题 |
+|---|---|---|
+| 已验收图片 | 完整 SKU、用途、版本、授权状态和最终文件 | 用未验收候选图生成公开描述 |
+| 文件名 | 简洁画面说明及团队内部的 SKU/用途映射 | 仅用 `image1`，或塞入无关查询词 |
+| `alt` 与页面说明 | 可见对象、视角或画面差异；正文与图片处于相符的商品上下文 | 补写画面外的参数、认证、配件或效果 |
+
+模型选择仍由图像任务决定：[GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2)可作为新商品图入口之一；需要修改已验收成片时可从 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)进入编辑。无论使用何种模型，图片描述都应由最终审核人员依据成片填写。
+
 ## 模型 Models(电商视角)
 
 - **[Nano Banana 2.1](https://flux-art.cn/zh/models/nano-banana-2-1)**（[EN](https://flux-art.cn/en/models/nano-banana-2-1)）— 官网更新日志确认已上线，支持图片生成与编辑、最高 4K。当前 [Flux Art API Reference](https://flux-art.net/zh/openapi/reference) 列出的 API `model` 是 `gemini-nano-banana-2.1`，与网页 slug `nano-banana-2-1` 不同；用已鉴权账户的 `GET /models` 核对可用性和字段后再接入。
