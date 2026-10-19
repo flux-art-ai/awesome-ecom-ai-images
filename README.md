@@ -51,6 +51,8 @@
 
 同一项目涉及多步时，应为每一步保留输入、授权范围、通过版本和退回原因，不能让后一项操作掩盖前一步的商品或人物错误。三种专用工具的名称不说明其底层模型；若整体结果已通过、只有一个有证据的局部需要修正，才评估 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5) 的 Flare 或 Sunburst。完整英文判断表见 [Flux Art model-image workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/en/09-model-photo.md)。
 
+**面部替换资源交接卡**：保存“模特底图版本、面部参考版本、确认用途、授权核对记录、输出版本、审核结论、退回原因”七项，即可把审核意见关联到具体候选。对外分享时不要附上不必要的身份资料；未经审核通过的图不要放入可下载商品素材包。若身份边界、发型或光线出现非预期变化，回到原始底图，不要用后续编辑掩盖偏差。
+
 ### 商品图的文件名和 `alt` 文本资源
 
 图片生成后，文件本身并不会自动具备适合商品页的描述。先从 [Google 图片 SEO 最佳实践](https://developers.google.com/search/docs/appearance/google-images?hl=zh-CN)核对图片发现、描述性文件名、页面语境和替代文本规则：文件名可简短描述画面并与 SKU 交付记录关联；`alt` 写图片中真实可见的内容，不应复制关键词列表。Google 将文件名视为较轻的主题线索，并结合图片替代文本与页面内容理解图片，因此这份资源用于改善清晰度和可访问性，不代表收录或排名保证。
