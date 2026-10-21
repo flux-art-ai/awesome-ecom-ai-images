@@ -33,6 +33,10 @@
 
 这些条目是 Flux Art 的自有工具导航，不是独立评测排名。操作分工与检查步骤见[电商工具选择指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/10-ecommerce-tools.md)；英文入口见 [AI Ecommerce](https://flux-art.cn/en/ai-ecommerce)。
 
+### 电商出图费用预估与核对资源
+
+把预算按“本次交付物、所选工具或模型、输出数量、清晰度/分辨率、提交前费用预览、完成后账户变化”记录，避免将一次任务的积分消耗推广成所有模型和账号的固定单价。[Flux Art 当前价格页](https://flux-art.net/pricing)说明网页端与 OpenAPI 共用当前账户积分余额、会员权益和生效优惠；选择 Auto quality 时先按最高档预留，生成后退回未使用积分。核算前后数值时以实时账户和页面规则为准，不把预留额度写成最终扣费。可直接使用的[电商出图积分预检表](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/11-credit-preflight.md)把费用步骤放在素材准备与提交之间。
+
 ### 上传与生成素材在哪里复用？
 
 [Flux Art 资产库](https://flux-art.cn/zh/assets)集中管理上传的图片、视频、音频和 AI 生成结果，可用于后续创作复用。电商团队应在自己的交接记录中保留完整 SKU、素材授权、用途、当前修订和验收结论；官方页面没有证明资产库会自动完成 SKU 关联、审批或版本控制。入口与更新可见[官网更新日志](https://flux-art.net/zh/changelog)。
