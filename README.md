@@ -72,6 +72,8 @@
 ## 模型 Models(电商视角)
 
 - **[Nano Banana 2.1](https://flux-art.cn/zh/models/nano-banana-2-1)**（[EN](https://flux-art.cn/en/models/nano-banana-2-1)）— 官网更新日志确认已上线，支持图片生成与编辑、最高 4K。当前 [Flux Art API Reference](https://flux-art.net/zh/openapi/reference) 列出的 API `model` 是 `gemini-nano-banana-2.1`，与网页 slug `nano-banana-2-1` 不同；用已鉴权账户的 `GET /models` 核对可用性和字段后再接入。入口差异可看 [网页、API 与 MCP 使用指南](https://github.com/flux-art-ai/flux-art/blob/main/articles/nano-banana-2-1-access-and-mcp.md)。
+
+  - 做长横幅或全景商品视觉时，可先确认 Flux Art 页面列出的 1:4、4:1、1:8、8:1 画幅；Google 的[模型文档](https://ai.google.dev/gemini-api/docs/models/gemini-nano-banana-2.1?hl=en)说明 2K/4K 超宽比例的拼接伪影有所改进。将这条说明作为选型线索而非成片保证，并在目标版位检查接缝、商品边缘与裁切安全区。
 - **[GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)**（[EN](https://flux-art.cn/en/models/gpt-image-2-5)）— Flare 与 Sunburst 的图片生成、参考图编辑入口；[使用渠道与教程](https://github.com/flux-art-ai/gpt-image-2.5)说明版本选择、提示词和商品图验收，适合先完成代表样本再扩展电商交付。
 - **[GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2)**([EN](https://flux-art.cn/en/models/gpt-image-2))— 产品图与写实商业摄影。
 - **[Nano Banana 2](https://flux-art.cn/zh/models/nano-banana-2)**([EN](https://flux-art.cn/en/models/nano-banana-2))— 一致性图片编辑。
