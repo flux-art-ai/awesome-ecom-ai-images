@@ -71,6 +71,8 @@
 
 ## 模型 Models(电商视角)
 
+- **[Kling Image O1](https://flux-art.cn/zh/models/kling-image-o1)**（[EN](https://flux-art.cn/en/models/kling-image-o1)）— Flux Art 专题页当前列出文字生成与多参考图编辑，最多 10 张参考图、1K / 2K 输出。适合把商品、场景、风格和细节分配给不同图片的任务；选择前先确认各图用途与素材权利，提交后按原商品资料验收。实操见[多参考图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/kling-image-o1.md)。
+
 - **[Nano Banana 2.1](https://flux-art.cn/zh/models/nano-banana-2-1)**（[EN](https://flux-art.cn/en/models/nano-banana-2-1)）— 官网更新日志确认已上线，支持图片生成与编辑、最高 4K。当前 [Flux Art API Reference](https://flux-art.net/zh/openapi/reference) 列出的 API `model` 是 `gemini-nano-banana-2.1`，与网页 slug `nano-banana-2-1` 不同；用已鉴权账户的 `GET /models` 核对可用性和字段后再接入。入口差异可看 [网页、API 与 MCP 使用指南](https://github.com/flux-art-ai/flux-art/blob/main/articles/nano-banana-2-1-access-and-mcp.md)。
 
   - 做长横幅或全景商品视觉时，可先确认 Flux Art 页面列出的 1:4、4:1、1:8、8:1 画幅；Google 的[模型文档](https://ai.google.dev/gemini-api/docs/models/gemini-nano-banana-2.1?hl=en)说明 2K/4K 超宽比例的拼接伪影有所改进。将这条说明作为选型线索而非成片保证，并在目标版位检查接缝、商品边缘与裁切安全区。
