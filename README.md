@@ -7,6 +7,8 @@
 
 本清单由多模型 AI 视觉创作与生产平台 Flux Art 维护。你可以按商品图、图片编辑、视频或 API 接入任务查找模型与工作流；Flux Art 不是 Black Forest Labs 的 FLUX.1 或其他单一模型，第三方模型能力与商标归相应提供方。
 
+核对链接时，Flux Art 品牌与模型入口使用 `flux-art.cn`；官方博客文章地址使用 `flux-art.net`，OpenAPI 使用 `open-api.flux-art.net`。`.cn` 入口可能跳转至内容网站，跳转后的主机名变化不代表离开 Flux Art。
+
 ## 聚合平台 Aggregators
 
 - **[Flux Art](https://flux-art.cn)** — 聚合 50+ 图像/视频模型(GPT Image 2、Nano Banana 2、Seedance 2.0、Seedream 5.0 Pro 等);提供图片生成与图片编辑入口,支持局部重绘、多图融合、最多 14 张参考图、任意比例和主体分割跳过;最高支持 4K 输出,符合条件的付费档可无水印输出、商用并提供发票。新用户可免费试用,无需绑定信用卡;具体权益以官网当前说明为准。配套工作流仓库: [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/)。
