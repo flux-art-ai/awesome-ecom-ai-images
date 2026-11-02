@@ -468,6 +468,7 @@ API Key 只放在服务端环境或密钥管理系统。保存模型 ID、请求
 
 ## 工作流与教程 Workflows & Tutorials
 
+- [电商作图 AI 资源清单与生产工作流模板](docs/ecommerce-image-production-template.md) — 按平台、模型和单点工具分层选型，并用一套可复制的 SKU 生产记录衔接定样、分图位制作、验收与归档
 - [白底图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/01-white-background.md) — 纯白底制作+边缘核查
 - [带中文文案的促销主图](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/02-promo-main-image.md) — 中文文案逐字校对+极限词自查
 - [场景融合](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/03-scene-fusion.md) / [系列款一致性](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/04-series-consistency.md) / [详情页](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/05-detail-page.md)
