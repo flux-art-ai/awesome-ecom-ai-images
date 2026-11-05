@@ -150,6 +150,7 @@ API Key 只放在服务端环境或密钥管理系统。保存模型 ID、请求
 | 真实商品资料，需要新构图或带字画面 | 对比 [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2) 与 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5) 的生成/编辑路径；2.5 在工作台内选择 Flare 或 Sunburst | 商品是否仍与实物一致，标题是否正确，是否留够排版空间 |
 | 已有满意的商品图，只换场景或做系列版本 | 从 [Nano Banana 2](https://flux-art.cn/zh/models/nano-banana-2) 的参考图编辑开始，需要时与 GPT Image 2.5 编辑结果对照 | 未要求修改的结构、颜色、Logo 和包装字有没有改变 |
 | 还没确定 Nano Banana 的具体版本 | 先查 [Nano Banana 家族入口](https://flux-art.cn/zh/models/nano-banana)，再根据当前版本说明选生成或编辑任务 | 不把整个系列视作同一组尺寸、参考图上限或费用 |
+| 已有静态商品图，要制作短视频或编辑视频素材 | 查看 [Seedance 2.5](https://flux-art.cn/zh/models/seedance-2-5) 的当前路径，并参考[电商短视频工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/seedance-2-5.md) | 商品身份、允许动作、镜头连续性与包装文字；不要把图片模型的验收结论直接套用于视频 |
 | 目标是整套上架图或一组 SKU 图片 | 按任务进入 [商品套图](https://flux-art.cn/zh/ai-ecommerce/product-suite) 或 [SKU 批量图](https://flux-art.cn/zh/ai-ecommerce/sku-batch) | 每张图片对应哪个商品、模块和完整 SKU；不要把工具名当模型名 |
 
 对比时保存同一原图、修改要求、画幅与可比的输出设置；不同模型没有相同选项时注明差异，不把两次不同任务的结果当作模型优劣证据。检查方法见 [Nano Banana 2 多图融合](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/nano-banana-2.md)和 [GPT Image 2.5 参考图编辑](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/reference-editing.md)。
