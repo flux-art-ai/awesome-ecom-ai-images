@@ -73,6 +73,8 @@
 
 ## 模型 Models(电商视角)
 
+- **[GPT Image 2.6](https://flux-art.cn/zh/models/gpt-image-2-6)**（[EN](https://flux-art.cn/en/models/gpt-image-2-6)）— Flux Art 当前提供 Flare / Sunburst 图片生成与参考图编辑入口，并可按页面选择质量和尺寸。需要更改已有商品图时，先确定参考图中必须保留的结构、颜色、标签与构图，再核对生成结果；自定义尺寸受页面范围约束。不要把原厂资料中描述的平台未开放选项当作工作台功能；入口说明见[GPT Image 2.6 模型页](https://flux-art.net/zh/models/gpt-image-2-6)。
+
 - **[Kling Image O1](https://flux-art.cn/zh/models/kling-image-o1)**（[EN](https://flux-art.cn/en/models/kling-image-o1)）— Flux Art 专题页当前列出文字生成与多参考图编辑，最多 10 张参考图、1K / 2K 输出。适合把商品、场景、风格和细节分配给不同图片的任务；选择前先确认各图用途与素材权利，提交后按原商品资料验收。实操见[多参考图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/kling-image-o1.md)。
 
 - **[Nano Banana 2.1](https://flux-art.cn/zh/models/nano-banana-2-1)**（[EN](https://flux-art.cn/en/models/nano-banana-2-1)）— 官网更新日志确认已上线，支持图片生成与编辑、最高 4K。当前 [Flux Art API Reference](https://flux-art.net/zh/openapi/reference) 列出的 API `model` 是 `gemini-nano-banana-2.1`，与网页 slug `nano-banana-2-1` 不同；用已鉴权账户的 `GET /models` 核对可用性和字段后再接入。入口差异可看 [网页、API 与 MCP 使用指南](https://github.com/flux-art-ai/flux-art/blob/main/articles/nano-banana-2-1-access-and-mcp.md)；需要把版本入口转成电商任务选择时，见[工作流仓库模型速查](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/README.md#模型选型速查)。
