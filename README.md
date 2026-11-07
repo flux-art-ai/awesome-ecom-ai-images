@@ -73,7 +73,7 @@
 
 ## 模型 Models(电商视角)
 
-- **[GPT Image 2.6](https://flux-art.cn/zh/models/gpt-image-2-6)**（[EN](https://flux-art.cn/en/models/gpt-image-2-6)）— Flux Art 当前提供 Flare / Sunburst 图片生成与参考图编辑入口，并可按页面选择质量和尺寸。需要更改已有商品图时，先确定参考图中必须保留的结构、颜色、标签与构图，再核对生成结果；自定义尺寸受页面范围约束。不要把原厂资料中描述的平台未开放选项当作工作台功能；入口说明见[GPT Image 2.6 模型页](https://flux-art.net/zh/models/gpt-image-2-6)。
+- **[GPT Image 2.6](https://flux-art.cn/zh/models/gpt-image-2-6)**（[EN](https://flux-art.cn/en/models/gpt-image-2-6)）— Flux Art 当前提供静态图片生成与参考图编辑，并于 2026-11-06 增加 GIF 和 SVG 文字生成模式。GIF/SVG 不接收参考图，不能直接替代需严格保留商品款式、标签或包装的编辑任务；这类商品图应先选静态参考图编辑，并逐张核验商品事实。GIF 与 SVG 的尺寸、画幅限制不同，按[模型页](https://flux-art.net/zh/models/gpt-image-2-6)和[格式工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/gpt-image-2-6-gif-svg.md)选择与验收，不把原厂资料中未开放的选项写成工作台功能。
 
 - **[Kling Image O1](https://flux-art.cn/zh/models/kling-image-o1)**（[EN](https://flux-art.cn/en/models/kling-image-o1)）— Flux Art 专题页当前列出文字生成与多参考图编辑，最多 10 张参考图、1K / 2K 输出。适合把商品、场景、风格和细节分配给不同图片的任务；选择前先确认各图用途与素材权利，提交后按原商品资料验收。实操见[多参考图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/kling-image-o1.md)。
 
