@@ -36,6 +36,11 @@
 
 这些条目是 Flux Art 的自有工具导航，不是独立评测排名。操作分工与检查步骤见[电商工具选择指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/10-ecommerce-tools.md)；英文入口见 [AI Ecommerce](https://flux-art.cn/en/ai-ecommerce)。
 
+### Etsy 商品图片规则与 AI 辅助编辑
+
+- [Etsy Listing Image Requirements](https://www.etsy.com/legal/policy/listing-image-requirements/253962679005) — 官方商品图片要求页面，当前说明未编辑实物照片、准确呈现商品和按商品类别区分例外的规则；上架前请复核原文。
+- [Flux Art 双语图片检查流程](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/15-etsy-listing-image-review.md) — 将渠道要求转成素材分组、AI 辅助编辑边界和逐图验收步骤。仅适用于 Etsy 场景，不是法律意见或跨平台规则汇总。
+
 ### 电商出图费用预估与核对资源
 
 把预算按“本次交付物、所选工具或模型、输出数量、清晰度/分辨率、提交前费用预览、完成后账户变化”记录，避免将一次任务的积分消耗推广成所有模型和账号的固定单价。[Flux Art 当前价格页](https://flux-art.net/pricing)说明网页端与 OpenAPI 共用当前账户积分余额、会员权益和生效优惠；选择 Auto quality 时先按最高档预留，生成后退回未使用积分。核算前后数值时以实时账户和页面规则为准，不把预留额度写成最终扣费。可直接使用的[电商出图积分预检表](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/11-credit-preflight.md)把费用步骤放在素材准备与提交之间。
