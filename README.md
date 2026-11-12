@@ -23,6 +23,7 @@
 | 详情页的信息模块 | [A+ 详情页](https://flux-art.cn/zh/ai-ecommerce/a-plus-content) | 参数与卖点来自实际资料，不让模型猜测 |
 | 不同完整 SKU 的图像 | [SKU 批量图](https://flux-art.cn/zh/ai-ecommerce/sku-batch) | 一条完整标签对应一张图；整理清单后可按逗号、分号或换行粘贴，提交前核对实拍、标签数与目标图数 |
 | 已完成图片统一添加品牌标记 | [批量加水印](https://flux-art.cn/zh/ai-tools/batch-watermark) | 文字或 Logo 可选单点/平铺布局；先核对代表图遮挡与可读性。可见水印不是 AI 来源元数据，也不替代渠道披露要求 |
+| 从图片中提取主体并导出透明 PNG | [智能抠图](https://flux-art.cn/zh/ai-tools/remove-background) · [Background Remover](https://flux-art.cn/en/ai-tools/remove-background) | 工具页支持描述要保留的主体，并提醒细节与构图可能变化；对照原图检查透明边缘、标签、配件和透明部件 |
 | 商品的参考构图 | [爆款图片复刻](https://flux-art.cn/zh/ai-ecommerce/reference-clone) | 使用有权使用的参考，不复制他人品牌标识 |
 | 单张参考图编辑 / 多张参考图静态交付 | [Kling V3 Image](https://flux-art.cn/zh/models/kling-v3-image) / [Kling V3 Omni Image](https://flux-art.cn/zh/models/kling-v3-omni-image) | 前者按单张参考图任务评估；后者可分配多张图片角色。Flux Art 当前未开放 Omni 的 Image Series 组图模式；可参阅[中英双语电商工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/kling-v3-omni-image.md) |
 | 商品光影、质感与瑕疵处理 | [产品精修](https://flux-art.cn/zh/ai-ecommerce/product-retouch) | 检查修改是否歪曲真实材质与成色 |
