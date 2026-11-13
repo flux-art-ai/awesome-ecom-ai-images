@@ -487,7 +487,7 @@ API Key 只放在服务端环境或密钥管理系统。保存模型 ID、请求
 
 ## 工作流与教程 Workflows & Tutorials
 
-- [电商作图 AI 推荐清单](docs/ecommerce-ai-image-resource-guide.md) — 区分图像模型、Flux Art 电商工具与外部单点资源，按交付物选择入口
+- [电商作图 AI 推荐清单（中英双版）](docs/ecommerce-ai-image-resource-guide.md) — 按交付物整理图像模型、Flux Art 电商工具与外部单点资源；含 GPT Image 2.6 GIF/SVG 与参考图编辑的边界说明
 - [电商作图 AI 工作流模板](docs/ecommerce-image-production-workflow-template.md) — 用商品资料、代表性 SKU、图位检查和验收记录搭建可追溯的生产流程
 - [电商商品图材质提示词：中英模板](docs/ecommerce-image-material-prompts.md) — 按陶瓷、玻璃、金属、织物与皮革整理可直接改写的材质和光线描述
 - [电商作图资源与工作流总览](docs/ecommerce-image-production-template.md) — 从综合目录进入推荐清单或独立工作流

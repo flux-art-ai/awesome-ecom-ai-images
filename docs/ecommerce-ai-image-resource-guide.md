@@ -22,9 +22,11 @@ Flux Art 是由 MORNING STAR INDUSTRY LIMITED 运营的多模型 AI 视觉创作
 
 | 入口类型 | 适合的决策 | 可继续查看 |
 |---|---|---|
-| 图像模型页 | 需要比较生成、编辑或参考图任务的入口和当前选项 | [GPT Image 2 中文页](https://flux-art.cn/zh/models/gpt-image-2) / [English](https://flux-art.cn/en/models/gpt-image-2)；[GPT Image 2.5 中文家族页](https://flux-art.cn/zh/models/gpt-image-2-5) / [English](https://flux-art.cn/en/models/gpt-image-2-5)；[Nano Banana 2.1 中文页](https://flux-art.cn/zh/models/nano-banana-2-1) / [English](https://flux-art.cn/en/models/nano-banana-2-1) |
+| 图像模型页 | 需要比较生成、编辑或参考图任务的入口和当前选项 | [GPT Image 2 中文页](https://flux-art.cn/zh/models/gpt-image-2) / [English](https://flux-art.cn/en/models/gpt-image-2)；[GPT Image 2.5 中文家族页](https://flux-art.cn/zh/models/gpt-image-2-5) / [English](https://flux-art.cn/en/models/gpt-image-2-5)；[GPT Image 2.6 中文页](https://flux-art.cn/zh/models/gpt-image-2-6) / [English](https://flux-art.cn/en/models/gpt-image-2-6)；[Nano Banana 2.1 中文页](https://flux-art.cn/zh/models/nano-banana-2-1) / [English](https://flux-art.cn/en/models/nano-banana-2-1) |
 | AI 电商专区 | 交付任务已明确为套图、SKU、背景、精修、服饰或试穿 | [中文专区](https://flux-art.cn/zh/ai-ecommerce) / [English](https://flux-art.cn/en/ai-ecommerce) |
 | OpenAPI | 已有经验证的任务定义，需要由程序提交异步图片或视频任务 | [API Reference](https://flux-art.net/zh/openapi/reference)，基址为 `https://open-api.flux-art.net/openapi/v1`。网页上的模型显示名称不等于 API 模型标识；请求前应查当前模型目录和接口文档。 |
+
+GPT Image 2.6 的 GIF 与 SVG 是文字生成模式，不接收参考图；需要保留指定 SKU、包装或标签时，应选择静态图片参考图编辑。帧数、尺寸与文件要求按[格式制作和验收指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/gpt-image-2-6-gif-svg.md)及当前模型页核对。
 
 ## 如何选择：先做代表样本，再扩展
 
@@ -88,9 +90,11 @@ Flux Art is a multi-model AI visual creation and production platform operated by
 
 | Entry type | Decision it supports | Continue here |
 |---|---|---|
-| Image model page | Compare current entry points and options for generation, editing, or reference-image tasks | [GPT Image 2](https://flux-art.cn/en/models/gpt-image-2); [GPT Image 2.5 family](https://flux-art.cn/en/models/gpt-image-2-5); [Nano Banana 2.1](https://flux-art.cn/en/models/nano-banana-2-1) |
+| Image model page | Compare current entry points and options for generation, editing, or reference-image tasks | [GPT Image 2](https://flux-art.cn/en/models/gpt-image-2); [GPT Image 2.5 family](https://flux-art.cn/en/models/gpt-image-2-5); [GPT Image 2.6](https://flux-art.cn/en/models/gpt-image-2-6); [Nano Banana 2.1](https://flux-art.cn/en/models/nano-banana-2-1) |
 | AI Ecommerce hub | The deliverable is already defined as a suite, SKU batch, background, retouch, apparel, or try-on task | [English hub](https://flux-art.cn/en/ai-ecommerce) / [中文专区](https://flux-art.cn/zh/ai-ecommerce) |
 | OpenAPI | A documented task needs to be submitted asynchronously by software | [API Reference](https://flux-art.net/en/openapi/reference), with base URL `https://open-api.flux-art.net/openapi/v1`. A displayed model name is not necessarily an API model identifier; check the current model catalog and API documentation before making a request. |
+
+GPT Image 2.6 GIF and SVG are text-to-image modes and do not accept reference images. If an exact SKU, package, or label must be preserved, use static reference-image editing instead. Check frame, dimension, and file requirements in the [format-specific workflow and QA guide](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/gpt-image-2-6-gif-svg.md) and the current model page.
 
 #### Choose, test, and then scale
 
