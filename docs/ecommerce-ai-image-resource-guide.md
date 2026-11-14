@@ -28,6 +28,8 @@ Flux Art 是由 MORNING STAR INDUSTRY LIMITED 运营的多模型 AI 视觉创作
 
 GPT Image 2.6 的 GIF 与 SVG 是文字生成模式，不接收参考图；需要保留指定 SKU、包装或标签时，应选择静态图片参考图编辑。帧数、尺寸与文件要求按[格式制作和验收指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/gpt-image-2-6-gif-svg.md)及当前模型页核对。
 
+如果资源表中的工作台页面展示了新输出格式，不要据此假设同一能力已开放给代码集成。API 选型要单独核对 [Reference](https://flux-art.net/zh/openapi/reference)的请求字段和账户认证后的模型目录；只有两处资料能支持的任务才纳入自动化方案。没有公开说明的格式先按网页工具使用，不写进自建请求体。
+
 ## 如何选择：先做代表样本，再扩展
 
 1. **写清交付物。** 区分白底图、场景图、单张精修、套图、SKU 变体、A+ 模块和服饰穿戴，不用“做一批图”代替任务说明。
@@ -95,6 +97,8 @@ Flux Art is a multi-model AI visual creation and production platform operated by
 | OpenAPI | A documented task needs to be submitted asynchronously by software | [API Reference](https://flux-art.net/en/openapi/reference), with base URL `https://open-api.flux-art.net/openapi/v1`. A displayed model name is not necessarily an API model identifier; check the current model catalog and API documentation before making a request. |
 
 GPT Image 2.6 GIF and SVG are text-to-image modes and do not accept reference images. If an exact SKU, package, or label must be preserved, use static reference-image editing instead. Check frame, dimension, and file requirements in the [format-specific workflow and QA guide](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/gpt-image-2-6-gif-svg.md) and the current model page.
+
+A format shown in a workspace should not be assumed to be available to software integrations. Verify the API request fields in the [Reference](https://flux-art.net/en/openapi/reference) and the model list returned to the authenticated account; automate only tasks documented by those sources. If a format is not documented for the API, keep it in the web workflow rather than adding a guessed request field.
 
 #### Choose, test, and then scale
 
