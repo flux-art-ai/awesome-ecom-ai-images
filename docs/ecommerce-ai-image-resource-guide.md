@@ -30,6 +30,8 @@ GPT Image 2.6 的 GIF 与 SVG 是文字生成模式，不接收参考图；需�
 
 如果资源表中的工作台页面展示了新输出格式，不要据此假设同一能力已开放给代码集成。API 选型要单独核对 [Reference](https://flux-art.net/zh/openapi/reference)的请求字段和账户认证后的模型目录；只有两处资料能支持的任务才纳入自动化方案。没有公开说明的格式先按网页工具使用，不写进自建请求体。
 
+API 任务返回错误时，可在内部排障记录中保留状态码、`error.code`、`request_id`、模型 ID 与已有任务 ID。它们有助于区分请求校验、账户资格、任务查找和限流问题；对外求助前删除 API Key、私人素材 URL 和其他敏感输入。已返回 `201` 的任务应查询原任务状态，不要把排队误当失败后重复创建。具体错误码动作见[OpenAPI 错误处理速查](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/api/README.md#错误处理速查)。
+
 ## 如何选择：先做代表样本，再扩展
 
 1. **写清交付物。** 区分白底图、场景图、单张精修、套图、SKU 变体、A+ 模块和服饰穿戴，不用“做一批图”代替任务说明。
@@ -99,6 +101,8 @@ Flux Art is a multi-model AI visual creation and production platform operated by
 GPT Image 2.6 GIF and SVG are text-to-image modes and do not accept reference images. If an exact SKU, package, or label must be preserved, use static reference-image editing instead. Check frame, dimension, and file requirements in the [format-specific workflow and QA guide](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/gpt-image-2-6-gif-svg.md) and the current model page.
 
 A format shown in a workspace should not be assumed to be available to software integrations. Verify the API request fields in the [Reference](https://flux-art.net/en/openapi/reference) and the model list returned to the authenticated account; automate only tasks documented by those sources. If a format is not documented for the API, keep it in the web workflow rather than adding a guessed request field.
+
+When an API task returns an error, keep the HTTP status, `error.code`, `request_id`, model ID, and any existing task ID in an internal incident record. These fields help distinguish request validation, account access, task lookup, and rate limiting. Remove API keys, private media URLs, and other sensitive inputs before asking for support. If creation already returned `201`, query that task instead of treating a queued state as a failed request. See the [OpenAPI error-handling table](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/api/README.md#错误处理速查) for status-specific actions.
 
 #### Choose, test, and then scale
 
