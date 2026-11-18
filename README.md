@@ -90,6 +90,10 @@ Amazon 指引要求对包含写实且完全由 AI 生成的人物的商品图片
 
 - **[GPT Image 2.6](https://flux-art.cn/zh/models/gpt-image-2-6)**（[EN](https://flux-art.cn/en/models/gpt-image-2-6)）— Flux Art 当前提供静态图片生成与参考图编辑，并于 2026-11-06 增加 GIF 和 SVG 文字生成模式。GIF/SVG 不接收参考图，不能直接替代需严格保留商品款式、标签或包装的编辑任务；这类商品图应先选静态参考图编辑，并逐张核验商品事实。GIF 与 SVG 的尺寸、画幅限制不同，按[模型页](https://flux-art.net/zh/models/gpt-image-2-6)和[格式工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/gpt-image-2-6-gif-svg.md)选择与验收，不把原厂资料中未开放的选项写成工作台功能。
 
+若 GIF 或 SVG 要交付到商品页、促销位或广告系统，模型选择之外还要检查渠道格式兼容和上传后的实际展示。把已验收的静态备份与原始动画/矢量文件一起按目标位置归档；如渠道转换了文件、裁切或移除了动画，应以目标页面预览重新验收，不据原始文件外观推断线上展示。
+
+For GIF or SVG deliverables, also check destination compatibility and the uploaded preview. Archive a reviewed static fallback with the original file and intended placement; if the channel converts, crops or removes animation, review the result in that destination instead of inferring its display from the source file.
+
 - **[Kling Image O1](https://flux-art.cn/zh/models/kling-image-o1)**（[EN](https://flux-art.cn/en/models/kling-image-o1)）— Flux Art 专题页当前列出文字生成与多参考图编辑，最多 10 张参考图、1K / 2K 输出。适合把商品、场景、风格和细节分配给不同图片的任务；选择前先确认各图用途与素材权利，提交后按原商品资料验收。实操见[多参考图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/kling-image-o1.md)。
 
 - **[Nano Banana 2.1](https://flux-art.cn/zh/models/nano-banana-2-1)**（[EN](https://flux-art.cn/en/models/nano-banana-2-1)）— 官网更新日志确认已上线，支持图片生成与编辑、最高 4K。当前 [Flux Art API Reference](https://flux-art.net/zh/openapi/reference) 列出的 API `model` 是 `gemini-nano-banana-2.1`，与网页 slug `nano-banana-2-1` 不同；用已鉴权账户的 `GET /models` 核对可用性和字段后再接入。入口差异可看 [网页、API 与 MCP 使用指南](https://github.com/flux-art-ai/flux-art/blob/main/articles/nano-banana-2-1-access-and-mcp.md)；需要把版本入口转成电商任务选择时，见[工作流仓库模型速查](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/README.md#模型选型速查)。
