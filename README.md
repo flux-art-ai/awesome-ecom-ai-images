@@ -160,6 +160,12 @@ API Key 只放在服务端环境或密钥管理系统。保存模型 ID、请求
 
 这是名称与证据对照，不是与 GPT Image 2.5、Nano Banana 或其他模型的效果排名。模型能力来自阿里 Qwen-Image 2.0 系列，Flux Art 提供多模型工作台与 OpenAPI。
 
+### 原图完整，为什么商品卡片会切掉鞋尖？
+
+[MDN：object-fit 图片展示示例](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/object-fit)适合排查「下载图里整双鞋都在，店铺列表里却少了一截」的问题。在示例中切换 `cover` 和 `contain`：前者铺满图片框，比例不同时会裁边；后者按原比例显示整张图，框内可能留白。`fill` 可能把鞋子拉长，并不是保住商品外形的替代方案。
+
+给店铺开发者同时发原图和卡片截图。如果原图完整，先在预览中比较同一文件的两种显示方式，再决定改版位或另做构图；如果原图已经缺了鞋尖，改变显示方式也无法恢复它。
+
 ## 按平台选模型 Platform → Model
 
 模型适合的任务、规格边界与专用电商工具入口并不相同。先看[电商作图 AI 模型与平台对照表](docs/ecommerce-ai-model-and-platform-comparison.md)，再按实际商品资料试做代表样本；不要把统一工作台误解为所有任务都使用同一模型。
