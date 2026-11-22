@@ -502,6 +502,7 @@ API Key 只放在服务端环境或密钥管理系统。保存模型 ID、请求
 - 模板套版: 稿定设计 · 创客贴 · Canva 可画
 - 阿里生态: 堆友 · 鹿班 · 绘蛙 · 生意管家「智图」(淘宝官方)
 - 修图/模特: 美图设计室 · WeShop 唯象
+- 改商品图文字: [Reletter](https://aiedittextinimage.com/) 在浏览器识别和替换图中的中英文标签或价格，提供免费带水印预览，下载与局部重绘价格以官网当前为准。EN: Edit existing labels or prices in product photos.
 
 ## 工作流与教程 Workflows & Tutorials
 
