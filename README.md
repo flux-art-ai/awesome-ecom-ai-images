@@ -507,6 +507,7 @@ API Key 只放在服务端环境或密钥管理系统。保存模型 ID、请求
 
 - 抠图/白底: [remove.bg](https://www.remove.bg) · Photoroom · 佐糖(PicWish)
 - 精修抠图边缘：[GIMP 官方图层蒙版教程](https://www.gimp.org/tutorials/community/Layer_Masks/)适合原图边缘清楚、自动提取时漏掉白杯薄边或填住把手内孔的情况。用蒙版处理显隐，保留商品图层；临时加深色底核对，不把诊断底导进白底成品。原片就看不清的边缘先补拍，蒙版不能补出未知结构。
+- 透明材质合成：[GIMP 图层蒙版手册](https://docs.gimp.org/3.0/en/gimp-layer-mask-add.html)区分不透明、半透明与透明区域，适合对已有干净素材分区处理显隐；蒙版不能自动分离已经拍进玻璃瓶身的旧桌面花纹。需要换场景时，先用[透明商品验收表](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/03-scene-fusion.md#透明商品换背景后瓶身还看得到旧背景怎么办)判断是否应补拍。
 - 模板套版: 稿定设计 · 创客贴 · Canva 可画
 - 阿里生态: 堆友 · 鹿班 · 绘蛙 · 生意管家「智图」(淘宝官方)
 - 修图/模特: 美图设计室 · WeShop 唯象
