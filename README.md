@@ -407,6 +407,8 @@ API Key 只放在服务端环境或密钥管理系统。保存模型 ID、请求
 
 已确认的拍摄色偏可从[产品精修](https://flux-art.cn/zh/ai-ecommerce/product-retouch)评估有限修正；真实在售的颜色变体可进入[产品换色](https://flux-art.cn/zh/ai-ecommerce/product-recolor)。两者都不能替代实物、色卡或 SKU 资料。操作分流见[商品颜色排错流程](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/07-troubleshooting.md)。
 
+**GIMP 色彩管理**：商品图上传后颜色不一样、但母版已验收时，可用 GIMP 检查文件的色彩配置。源配置有记录且需要生成指定色彩空间的副本时，查[转换色彩配置](https://docs.gimp.org/3.0/en_GB/gimp-image-color-profile-convert.html)；需要给未标记文件补上已确认的源配置时，查[指定色彩配置](https://docs.gimp.org/3.0/en_GB/gimp-image-color-profile-assign.html)。这两项操作用于文件交付，不用于判定商品实际颜色或生成不同颜色的 SKU。
+
 ### 判断透视问题还是结构错误需要哪些资源？
 
 比例异常不能只靠“看起来像”判断。资源包应同时说明真实尺寸、拍摄面和尺度关系，帮助团队决定重拍、有限透视修正，还是回退错误结构。
